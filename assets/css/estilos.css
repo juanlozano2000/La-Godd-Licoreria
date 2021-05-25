@@ -800,11 +800,12 @@ h1 {
   background-color: #5c3e53;
   color: #fff; }
 
-h6 {
+.sub_h2 {
   color: cadetblue;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  font-size: 100%; }
 
 body {
   overflow-x: hidden; }
