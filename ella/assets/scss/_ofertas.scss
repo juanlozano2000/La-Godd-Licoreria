@@ -1,0 +1,149 @@
+/* Estilos para seccion OFERTAS */
+/*PRODUCTOS PARA OFERTAS*/
+.ofertas-conteiner{
+    color: #3F2B39;
+    font-family: 'Poppins', sans-serif;
+    grid-area: masLlevados;
+    text-align: center;
+    background-color: #EFEAEA;
+    padding: 15px;
+  }
+  
+  .ofertas-conteiner h3{
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .ofertas-cajas{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "img-1-o img-2-o img-3-o img-4-o"
+    "producto1O producto2O producto3O producto4O"
+    "oferta-1 oferta-2 oferta-3 oferta-4";
+
+    .ofertas-cajas__box1{
+        background-color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+
+        .img-1-o{
+            grid-area: img-1-o;
+        }
+        .producto1O{
+            grid-area: producto1O;
+            font-weight: bold;
+            font-size: 130%;
+
+            .offTachado{
+                text-decoration: line-through;
+            }
+            .offColor{
+                color: #EEB738;
+            }
+        }
+        .oferta-1{
+            grid-area: oferta-1;
+            margin-bottom: 10px;
+        }
+    }
+
+    .ofertas-cajas__box2{
+        background-color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+
+        .img-2-o{
+            grid-area: img-2-o;
+        }
+        .producto2O{
+            grid-area: producto2O;
+            font-weight: bold;
+            font-size: 130%;
+
+            .offTachado{
+                text-decoration: line-through;
+            }
+            .offColor{
+                color: #EEB738;
+            }
+        }
+        .oferta-2{
+            grid-area: oferta-2;
+            margin-bottom: 10px;
+        }
+    }
+
+    .ofertas-cajas__box3{
+        background-color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+
+        .img-3-o{
+            grid-area: img-2-o;
+        }
+        .producto3O{
+            grid-area: producto2O;
+            font-weight: bold;
+            font-size: 130%;
+
+            .offTachado{
+                text-decoration: line-through;
+            }
+            .offColor{
+                color: #EEB738;
+            }
+        }
+        .oferta-3{
+            grid-area: oferta-2;
+            margin-bottom: 10px;
+        }
+    }    
+
+    .ofertas-cajas__box4{
+        background-color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+
+        .img-4-o{
+            grid-area: img-2-o;
+        }
+        .producto4O{
+            grid-area: producto2O;
+            font-weight: bold;
+            font-size: 130%;
+
+            .offTachado{
+                text-decoration: line-through;
+            }
+            .offColor{
+                color: #EEB738;
+            }
+        }
+        .oferta-4{
+            grid-area: oferta-2;
+            margin-bottom: 10px;
+        }
+    }    
+}
+
+
+/* animaciones */
+.ofertas-cajas .ofertas-cajas__box1:hover{
+transform: scale(1.1);
+}
+.ofertas-cajas .ofertas-cajas__box2:hover{
+transform: scale(1.1);
+}
+.ofertas-cajas .ofertas-cajas__box3:hover{
+transform: scale(1.1);
+}
+.ofertas-cajas .ofertas-cajas__box4:hover{
+transform: scale(1.1);
+}
+

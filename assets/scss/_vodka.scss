@@ -1,0 +1,65 @@
+// Variables
+$bcg-violeta: #3F2B39;
+$bcg-grisFondo: #EFEAEA;
+$bcg-bordeAside: rgb(213, 208, 214);
+$bcg-amarillo: #EEB738;
+// Border para probar
+$border-rojo: solid 1px red;
+
+.h1-vodkas{
+    background-color: $bcg-violeta;
+}
+
+.vodkas-conteiner{
+    color: $bcg-violeta;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: $bcg-grisFondo;
+    // padding: 15px;
+
+    // display: flex;
+    // flex-direction: row;
+
+    h3{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+// .vodkas-cajas{
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+    
+//     .vodkas-cajas__box1{
+//         background-color: #fff;
+//         margin-left: 20px;
+//         margin-right: 20px;
+//         padding: 15px;
+
+//         .vodkas-cajas__box1--producto1Vod{
+//             grid-area: producto1V;
+//             font-weight: bold;
+//             font-size: 130%;
+//         }
+
+//         .vodkas-cajas__box1--promo-1{
+//             color: $bcg-violeta;
+//         }
+//     }
+// }
+
+
+/* ANIMACIONES sobre VINOS */
+.vodkas-cajas .vodkas-cajas__box1:hover{
+transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 767px){
+    .ella{
+        background-color: #EFEAEA;
+    }
+
+}
+  

@@ -1,0 +1,119 @@
+/* estilos para pagina CERVEZA */
+.cervezas-conteiner{
+    color: #3F2B39;
+    font-family: 'Poppins', sans-serif;
+    grid-area: masLlevados;
+    text-align: center;
+    background-color: #EFEAEA;
+    padding: 15px;
+}
+
+.cervezas-conteiner h3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.cervezas-cajas{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "img-1-c img-2-c img-3-c img-4-c"
+    "producto1C producto2C producto3C producto4C"
+    "cerveza-1 cerveza-2 cerveza-3 cerveza-4";
+
+    .cervezas-cajas__box1{
+        background-color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+
+        .img-1-c{
+            grid-area: img-1-c;
+        }
+          .producto1C{
+            grid-area: producto1C;
+            font-weight: bold;
+            font-size: 130%;
+        }
+          .cerveza-1{
+            grid-area: cerveza-1;
+            margin-bottom: 10px;
+        }        
+    }
+
+    .cervezas-cajas__box2{
+        background-color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+
+        .img-2-c{
+            grid-area: img-1-c;
+        }
+          .producto2C{
+            grid-area: producto1C;
+            font-weight: bold;
+            font-size: 130%;
+        }
+          .cerveza-2{
+            grid-area: cerveza-1;
+            margin-bottom: 10px;
+        } 
+    }    
+
+    .cervezas-cajas__box3{
+        background-color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+
+        .img-3-c{
+            grid-area: img-1-c;
+        }
+          .producto3C{
+            grid-area: producto1C;
+            font-weight: bold;
+            font-size: 130%;
+        }
+          .cerveza-3{
+            grid-area: cerveza-1;
+            margin-bottom: 10px;
+        } 
+    }   
+
+    .cervezas-cajas__box4{
+        background-color: #fff;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+
+        .img-4-c{
+            grid-area: img-1-c;
+        }
+          .producto4C{
+            grid-area: producto1C;
+            font-weight: bold;
+            font-size: 130%;
+        }
+          .cerveza-4{
+            grid-area: cerveza-1;
+            margin-bottom: 10px;
+        } 
+    }   
+}
+
+/* ANIMACIONES SOBRE CERVEZA */
+.cervezas-cajas .cervezas-cajas__box1:hover{
+transform: scale(1.1);
+}
+.cervezas-cajas .cervezas-cajas__box2:hover{
+transform: scale(1.1);
+}
+.cervezas-cajas .cervezas-cajas__box3:hover{
+transform: scale(1.1);
+}
+.cervezas-cajas .cervezas-cajas__box4:hover{
+transform: scale(1.1);
+}

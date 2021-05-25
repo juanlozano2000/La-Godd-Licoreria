@@ -1,0 +1,816 @@
+/*Estilos para PACKS*/
+.menuConteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin-bottom: 15px; }
+  .menuConteiner .menuConteiner__links {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 130%;
+    line-height: 35px;
+    text-align: center;
+    list-style-type: none;
+    list-style-position: inside;
+    text-decoration: none;
+    margin-right: 30px; }
+
+.packs-conteiner {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  grid-area: masLlevados;
+  text-align: center;
+  background-color: #EFEAEA;
+  padding: 15px; }
+  .packs-conteiner h3 {
+    display: flex;
+    justify-content: flex-start; }
+
+.packs-cajas {
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "img-1-p img-2-p" "producto1P producto2P" "pack-1 pack-2"; }
+  .packs-cajas .packs-cajas__box1 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .packs-cajas .packs-cajas__box1 .img-1-p {
+      grid-area: img-1-p; }
+    .packs-cajas .packs-cajas__box1 .producto1P {
+      grid-area: producto1P;
+      font-weight: bold;
+      font-size: 130%; }
+    .packs-cajas .packs-cajas__box1 .pack-1 {
+      grid-area: pack-1;
+      margin-bottom: 10px; }
+  .packs-cajas .packs-cajas__box2 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .packs-cajas .packs-cajas__box2 .img-2-p {
+      grid-area: img-2-p; }
+    .packs-cajas .packs-cajas__box2 .producto2P {
+      grid-area: producto2P;
+      font-weight: bold;
+      font-size: 130%; }
+    .packs-cajas .packs-cajas__box2 .pack-2 {
+      grid-area: pack-2;
+      margin-bottom: 10px; }
+
+.packs-cajas .packs-cajas__box1:hover {
+  transform: scale(1.1); }
+
+.packs-cajas .packs-cajas__box2:hover {
+  transform: scale(1.1); }
+
+.redes {
+  text-align: center;
+  background-color: #3F2B39;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .redes .redes__instagram {
+    color: #D72C75;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 5px; }
+  .redes .redes__facebook {
+    color: blue;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 5px; }
+  .redes .redes__whatsapp {
+    color: #29a329;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 5px; }
+
+/* Estilos para seccion OFERTAS */
+/*PRODUCTOS PARA OFERTAS*/
+.ofertas-conteiner {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  grid-area: masLlevados;
+  text-align: center;
+  background-color: #EFEAEA !important;
+  padding: 15px; }
+
+.ofertas-conteiner h3 {
+  display: flex;
+  justify-content: flex-start; }
+
+.ofertas-cajas {
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "img-1-o img-2-o img-3-o img-4-o" "producto1O producto2O producto3O producto4O" "oferta-1 oferta-2 oferta-3 oferta-4"; }
+  .ofertas-cajas .ofertas-cajas__box1 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .ofertas-cajas .ofertas-cajas__box1 .img-1-o {
+      grid-area: img-1-o; }
+    .ofertas-cajas .ofertas-cajas__box1 .producto1O {
+      grid-area: producto1O;
+      font-weight: bold;
+      font-size: 130%; }
+      .ofertas-cajas .ofertas-cajas__box1 .producto1O .offTachado {
+        text-decoration: line-through; }
+      .ofertas-cajas .ofertas-cajas__box1 .producto1O .offColor {
+        color: #EEB738; }
+    .ofertas-cajas .ofertas-cajas__box1 .oferta-1 {
+      grid-area: oferta-1;
+      margin-bottom: 10px; }
+  .ofertas-cajas .ofertas-cajas__box2 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .ofertas-cajas .ofertas-cajas__box2 .img-2-o {
+      grid-area: img-2-o; }
+    .ofertas-cajas .ofertas-cajas__box2 .producto2O {
+      grid-area: producto2O;
+      font-weight: bold;
+      font-size: 130%; }
+      .ofertas-cajas .ofertas-cajas__box2 .producto2O .offTachado {
+        text-decoration: line-through; }
+      .ofertas-cajas .ofertas-cajas__box2 .producto2O .offColor {
+        color: #EEB738; }
+    .ofertas-cajas .ofertas-cajas__box2 .oferta-2 {
+      grid-area: oferta-2;
+      margin-bottom: 10px; }
+  .ofertas-cajas .ofertas-cajas__box3 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .ofertas-cajas .ofertas-cajas__box3 .img-3-o {
+      grid-area: img-2-o; }
+    .ofertas-cajas .ofertas-cajas__box3 .producto3O {
+      grid-area: producto2O;
+      font-weight: bold;
+      font-size: 130%; }
+      .ofertas-cajas .ofertas-cajas__box3 .producto3O .offTachado {
+        text-decoration: line-through; }
+      .ofertas-cajas .ofertas-cajas__box3 .producto3O .offColor {
+        color: #EEB738; }
+    .ofertas-cajas .ofertas-cajas__box3 .oferta-3 {
+      grid-area: oferta-2;
+      margin-bottom: 10px; }
+  .ofertas-cajas .ofertas-cajas__box4 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .ofertas-cajas .ofertas-cajas__box4 .img-4-o {
+      grid-area: img-2-o; }
+    .ofertas-cajas .ofertas-cajas__box4 .producto4O {
+      grid-area: producto2O;
+      font-weight: bold;
+      font-size: 130%; }
+      .ofertas-cajas .ofertas-cajas__box4 .producto4O .offTachado {
+        text-decoration: line-through; }
+      .ofertas-cajas .ofertas-cajas__box4 .producto4O .offColor {
+        color: #EEB738; }
+    .ofertas-cajas .ofertas-cajas__box4 .oferta-4 {
+      grid-area: oferta-2;
+      margin-bottom: 10px; }
+
+/* animaciones */
+.ofertas-cajas .ofertas-cajas__box1:hover {
+  transform: scale(1.1); }
+
+.ofertas-cajas .ofertas-cajas__box2:hover {
+  transform: scale(1.1); }
+
+.ofertas-cajas .ofertas-cajas__box3:hover {
+  transform: scale(1.1); }
+
+.ofertas-cajas .ofertas-cajas__box4:hover {
+  transform: scale(1.1); }
+
+/*Violeta en ofertas rarisimo lo que pasa*/
+.violeta {
+  background-color: #3F2B39 !important;
+  color: #fff !important; }
+
+.violeta:hover {
+  background-color: #5c3e53 !important;
+  color: #fff; }
+
+/*Color blanco para item de ofertas que no me anda*/
+#colorWhite {
+  color: #fff; }
+
+/* estilos para pagina CERVEZA */
+.cervezas-conteiner {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  grid-area: masLlevados;
+  text-align: center;
+  background-color: #EFEAEA;
+  padding: 15px; }
+
+.cervezas-conteiner h3 {
+  display: flex;
+  justify-content: flex-start; }
+
+.cervezas-cajas {
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "img-1-c img-2-c img-3-c img-4-c" "producto1C producto2C producto3C producto4C" "cerveza-1 cerveza-2 cerveza-3 cerveza-4"; }
+  .cervezas-cajas .cervezas-cajas__box1 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .cervezas-cajas .cervezas-cajas__box1 .img-1-c {
+      grid-area: img-1-c; }
+    .cervezas-cajas .cervezas-cajas__box1 .producto1C {
+      grid-area: producto1C;
+      font-weight: bold;
+      font-size: 130%; }
+    .cervezas-cajas .cervezas-cajas__box1 .cerveza-1 {
+      grid-area: cerveza-1;
+      margin-bottom: 10px; }
+  .cervezas-cajas .cervezas-cajas__box2 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .cervezas-cajas .cervezas-cajas__box2 .img-2-c {
+      grid-area: img-1-c; }
+    .cervezas-cajas .cervezas-cajas__box2 .producto2C {
+      grid-area: producto1C;
+      font-weight: bold;
+      font-size: 130%; }
+    .cervezas-cajas .cervezas-cajas__box2 .cerveza-2 {
+      grid-area: cerveza-1;
+      margin-bottom: 10px; }
+  .cervezas-cajas .cervezas-cajas__box3 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .cervezas-cajas .cervezas-cajas__box3 .img-3-c {
+      grid-area: img-1-c; }
+    .cervezas-cajas .cervezas-cajas__box3 .producto3C {
+      grid-area: producto1C;
+      font-weight: bold;
+      font-size: 130%; }
+    .cervezas-cajas .cervezas-cajas__box3 .cerveza-3 {
+      grid-area: cerveza-1;
+      margin-bottom: 10px; }
+  .cervezas-cajas .cervezas-cajas__box4 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .cervezas-cajas .cervezas-cajas__box4 .img-4-c {
+      grid-area: img-1-c; }
+    .cervezas-cajas .cervezas-cajas__box4 .producto4C {
+      grid-area: producto1C;
+      font-weight: bold;
+      font-size: 130%; }
+    .cervezas-cajas .cervezas-cajas__box4 .cerveza-4 {
+      grid-area: cerveza-1;
+      margin-bottom: 10px; }
+
+/* ANIMACIONES SOBRE CERVEZA */
+.cervezas-cajas .cervezas-cajas__box1:hover {
+  transform: scale(1.1); }
+
+.cervezas-cajas .cervezas-cajas__box2:hover {
+  transform: scale(1.1); }
+
+.cervezas-cajas .cervezas-cajas__box3:hover {
+  transform: scale(1.1); }
+
+.cervezas-cajas .cervezas-cajas__box4:hover {
+  transform: scale(1.1); }
+
+.h1-vinos {
+  background-color: #3F2B39; }
+
+/* estilos para pagina VINOS */
+.vinos-conteiner {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  grid-area: masLlevados;
+  text-align: center;
+  background-color: #EFEAEA;
+  padding: 15px;
+  display: flex;
+  flex-direction: row; }
+  .vinos-conteiner h3 {
+    display: flex;
+    justify-content: flex-start; }
+
+.vinos-cajas {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .vinos-cajas .vinos-cajas__box1 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .vinos-cajas .vinos-cajas__box1 .vinos-cajas__box1--producto1V {
+      grid-area: producto1V;
+      font-weight: bold;
+      font-size: 130%; }
+    .vinos-cajas .vinos-cajas__box1 .vinos-cajas__box1--promo-1 {
+      color: #3F2B39; }
+  .vinos-cajas .vinos-cajas__box2 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .vinos-cajas .vinos-cajas__box2 .vinos-cajas__box2--producto2V {
+      grid-area: producto1V;
+      font-weight: bold;
+      font-size: 130%; }
+    .vinos-cajas .vinos-cajas__box2 .vinos-cajas__box2--promo-2 {
+      color: #3F2B39; }
+  .vinos-cajas .vinos-cajas__box3 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .vinos-cajas .vinos-cajas__box3 .vinos-cajas__box3--producto3V {
+      grid-area: producto1V;
+      font-weight: bold;
+      font-size: 130%; }
+    .vinos-cajas .vinos-cajas__box3 .vinos-cajas__box3--promo-3 {
+      color: #3F2B39; }
+  .vinos-cajas .vinos-cajas__box4 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .vinos-cajas .vinos-cajas__box4 .vinos-cajas__box4--producto4V {
+      grid-area: producto1V;
+      font-weight: bold;
+      font-size: 130%; }
+    .vinos-cajas .vinos-cajas__box4 .vinos-cajas__box4--promo-4 {
+      color: #3F2B39; }
+
+/* ANIMACIONES sobre VINOS */
+.vinos-cajas .vinos-cajas__box1:hover {
+  transform: scale(1.1); }
+
+.vinos-cajas .vinos-cajas__box2:hover {
+  transform: scale(1.1); }
+
+.vinos-cajas .vinos-cajas__box3:hover {
+  transform: scale(1.1); }
+
+.vinos-cajas .vinos-cajas__box4:hover {
+  transform: scale(1.1); }
+
+.h1-vodkas {
+  background-color: #3F2B39; }
+
+.vodkas-conteiner {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #EFEAEA; }
+  .vodkas-conteiner h3 {
+    display: flex;
+    justify-content: flex-start; }
+
+/* ANIMACIONES sobre VINOS */
+.vodkas-cajas .vodkas-cajas__box1:hover {
+  transform: scale(1.1); }
+
+@media screen and (max-width: 767px) {
+  .ella {
+    background-color: #EFEAEA; } }
+
+/* estilos para pagina SIN ALCOHOL */
+.h1-sin_alcohol {
+  background-color: #3F2B39; }
+
+.sin_alcohol-conteiner {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  grid-area: masLlevados;
+  text-align: center;
+  background-color: #EFEAEA;
+  padding: 15px;
+  display: flex;
+  flex-direction: row; }
+  .sin_alcohol-conteiner h3 {
+    display: flex;
+    justify-content: flex-start; }
+
+.sin_alcohol-cajas {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box1 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--producto1Sin {
+      grid-area: producto1V;
+      font-weight: bold;
+      font-size: 130%; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--promo-1 {
+      color: #3F2B39; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box2 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box2 .sin_alcohol-cajas__box2--producto2Sin {
+      grid-area: producto1V;
+      font-weight: bold;
+      font-size: 130%; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box2 .sin_alcohol-cajas__box2--promo-2 {
+      color: #3F2B39; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box3 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box3 .sin_alcohol-cajas__box3--producto3Sin {
+      grid-area: producto1V;
+      font-weight: bold;
+      font-size: 130%; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box3 .sin_alcohol-cajas__box3--promo-3 {
+      color: #3F2B39; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box4 {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box4 .sin_alcohol-cajas__box4--producto4Sin {
+      grid-area: producto1V;
+      font-weight: bold;
+      font-size: 130%; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box4 .sin_alcohol-cajas__box4--promo-4 {
+      color: #3F2B39; }
+
+/* ANIMACIONES sobre VINOS */
+.sin_alcohol-cajas .sin_alcohol-cajas__box1:hover {
+  transform: scale(1.1); }
+
+.sin_alcohol-cajas .sin_alcohol-cajas__box2:hover {
+  transform: scale(1.1); }
+
+.sin_alcohol-cajas .sin_alcohol-cajas__box3:hover {
+  transform: scale(1.1); }
+
+.sin_alcohol-cajas .sin_alcohol-cajas__box4:hover {
+  transform: scale(1.1); }
+
+.h1-grande {
+  font-size: 200%; }
+
+.mapa {
+  width: 100%; }
+
+.formulario {
+  background-color: #EFEAEA; }
+
+/*Esto seria section superior o NAV INF*/
+/*Esto seria section superior o NAV INF*/
+.navInf {
+  text-align: center;
+  background-color: #EEB738; }
+  .navInf .navInf__sectionSupItems {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid #9F0909;
+    border-radius: 40px;
+    padding: 5px 3.75rem;
+    background-color: #C8C3C3;
+    height: 5vh;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-items: center; }
+
+.navInf__sectionSupItems:hover {
+  color: white;
+  background-color: #9F0909; }
+
+/*PRODUCTOS MAS LLEVADOS*/
+.masLlevados {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #EFEAEA;
+  padding: 0.938rem; }
+
+/*grid area de productos mas llevados*/
+.productosMasLlevados {
+  width: 100%;
+  padding: 0.938rem 1.25rem; }
+
+/*Products mas llevados caracteristicas*/
+.producto1I {
+  font-weight: bold;
+  font-size: 130%;
+  font-family: 'Poppins', sans-serif;
+  color: #3F2B39; }
+
+.promo-1I {
+  grid-area: promo-1;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #3F2B39; }
+
+.productosMasLlevados .caja1I {
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px; }
+
+/* Animaciones sobre los productos mas llevados */
+.productosMasLlevados .caja1:hover {
+  transform: scale(1.1); }
+
+/*ASIDE*/
+.interesar {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #EFEAEA;
+  padding: 0.938rem; }
+
+.producto2I {
+  border: 1px solid #d5d0d6;
+  margin-top: 0.625rem;
+  height: 7.61vh; }
+
+/* Animaciones sobre te puede interesar */
+.producto2I:hover {
+  transform: translate(4px, 2px); }
+
+/*VALORACIONES*/
+.valoraciones {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  grid-area: valoraciones;
+  text-align: center;
+  background-color: #fff;
+  padding: 0.938rem; }
+  .valoraciones .valoraciones__caja1-Opinion:hover {
+    transform: scale(1.1); }
+    .valoraciones .valoraciones__caja1-Opinion:hover .valoraciones__caja1-Opinion--opinion1 {
+      color: #3F2B39; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  color: cadetblue;
+  font-style: oblique;
+  font-family: 'Poppins', sans-serif;
+  display: inline; }
+
+/*esto seria el HEADER*/
+.logo {
+  background-color: #3F2B39;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .logo .logo__h {
+    text-align: center; }
+
+.bcg {
+  background-color: #3F2B39; }
+
+.buscador {
+  background-color: #3F2B39;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#barraBuscadora {
+  /*Barra buscadora*/
+  border-radius: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  width: 50vw; }
+
+/*BOTONES ingresar y registrate*/
+.botones {
+  background-color: #3F2B39;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#ingresar {
+  /*boton ingresar*/
+  border-radius: 20px;
+  width: 7.32vw;
+  font-family: 'Poppins', sans-serif; }
+
+#registrate {
+  /*boton registrate*/
+  border-radius: 20px;
+  width: 7.32vw;
+  font-family: 'Poppins', sans-serif; }
+
+/*MENU*/
+.menu {
+  text-align: center;
+  background-color: #3F2B39; }
+
+.barraSuperior {
+  /*Iconos del menu*/
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 130%;
+  text-align: center;
+  list-style-type: none;
+  list-style-position: inside;
+  text-decoration: none; }
+
+#parada {
+  color: #EEB738; }
+
+/*esto seria el FOOTER*/
+/*Cuadro inferior izq*/
+.redes {
+  text-align: center;
+  background-color: #3F2B39;
+  padding: 0.938rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .redes .redes__instagram {
+    color: #D72C75; }
+  .redes .redes__facebook {
+    color: blue; }
+  .redes .redes__whatsapp {
+    color: #29a329; }
+
+.redes__whatsapp {
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding: 5px; }
+
+.redes__facebook {
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding: 5px; }
+
+.redes__instagram {
+  letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding: 5px; }
+
+.instagram {
+  width: 20px;
+  height: 20px; }
+
+/* Animaciones sobre iconos de REDES */
+.instagram:hover {
+  transform: rotateZ(-15deg); }
+
+.facebook:hover {
+  transform: rotateZ(-15deg); }
+
+.whatsapp:hover {
+  transform: rotateZ(-15deg); }
+
+/*Cuadro Medio*/
+.copyright {
+  text-align: center;
+  background-color: #3F2B39;
+  padding: 0.938rem;
+  color: #ffffff;
+  word-spacing: 6px;
+  line-height: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.688rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center; }
+  .copyright .copyright__parrafoFooter {
+    width: 36.60vw;
+    height: 15.22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+/*Cuadro inferior derecho*/
+.paginaSegura {
+  text-align: center;
+  background-color: #3F2B39;
+  padding: 0.938rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  /*FLEXBOX*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .paginaSegura .paginaSegura__check-logo {
+    width: 100px;
+    height: 100px; }
+  .paginaSegura .paginaSegura__txt {
+    font-size: 130%; }
+
+.icono_menu {
+  width: 25px;
+  height: 25px; }
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 767px) {
+  /*BOTONES ingresar y registrate*/
+  .botones {
+    padding: 0.5rem; }
+  #ingresar {
+    /*boton ingresar*/
+    width: 20%; }
+  #registrate {
+    /*boton registrate*/
+    width: 20%; }
+  /*Esto seria section superior o NAV INF pero para NAVBAR CELULAR Y TABLET*/
+  .sectionSupConteinerCell {
+    text-align: center;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap; }
+  .sectionSupItemsCell {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid #9F0909;
+    border-radius: 40px;
+    background-color: #C8C3C3;
+    height: 5vh;
+    width: 40vw;
+    margin: 5px;
+    padding: 5px; }
+  /*Cuadro Medio*/
+  .copyright {
+    line-height: 1.20rem;
+    font-size: 0.6rem;
+    width: 100%;
+    height: auto; }
+    .copyright .copyright__parrafoFooter {
+      width: 31.25rem;
+      height: auto; } }
+
+.fotitoCarru {
+  height: 60.88vh; }
+
+.violeta {
+  background-color: #3F2B39;
+  color: #fff; }
+
+.violeta:hover {
+  background-color: #5c3e53;
+  color: #fff; }
+
+h6 {
+  color: cadetblue;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px; }
+
+body {
+  overflow-x: hidden; }
+
+.barraSuperior:hover {
+  color: #EEB738; }
+
+#colorWhite:hover {
+  color: #EEB738; }

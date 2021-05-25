@@ -1,0 +1,305 @@
+@import "_packs.scss";
+@import "_ofertas";
+@import "_cerveza";
+@import "_vinos";
+@import "_vodka";
+@import "_sin_alcohol";
+@import "_zonas_envio";
+@import "_contacto";
+@import "_index";
+
+
+
+// Variables
+$bcg-violeta: #3F2B39;
+$bcg-grisFondo: #EFEAEA;
+$bcg-bordeAside: rgb(213, 208, 214);
+$bcg-amarillo: #EEB738;
+// Border para probar
+$border-rojo: solid 1px red;
+
+*{
+  margin: 0;
+  padding: 0;
+  }
+  
+h1{
+  color: cadetblue;
+  font-style:oblique;
+  font-family:'Poppins', sans-serif;
+  display: inline;
+}
+
+/*esto seria el HEADER*/
+.logo{
+  background-color: $bcg-violeta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .logo__h{
+    text-align: center;
+  }
+}
+
+.bcg{
+  background-color: $bcg-violeta;
+}
+
+.buscador{
+  background-color: $bcg-violeta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#barraBuscadora{ /*Barra buscadora*/
+  border-radius: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  width: 50vw;
+}
+    
+/*BOTONES ingresar y registrate*/
+.botones{ 
+  background-color: $bcg-violeta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ingresar{ /*boton ingresar*/
+  border-radius: 20px;
+  width: 7.32vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+#registrate{ /*boton registrate*/
+  border-radius: 20px;
+  width: 7.32vw;
+  font-family: 'Poppins', sans-serif;
+}
+  
+
+  
+/*MENU*/
+.menu{
+  text-align: center;
+  background-color: $bcg-violeta;
+}
+
+.barraSuperior{ /*Iconos del menu*/
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+  text-transform: uppercase;
+  font-size: 130%;
+  text-align: center;
+  list-style-type: none;
+  list-style-position: inside;
+  text-decoration: none;
+}
+
+//para ver en que seccion estoy 
+#parada{
+  color: #EEB738;
+}
+
+
+ 
+/*esto seria el FOOTER*/
+/*Cuadro inferior izq*/
+.redes {
+  text-align: center;
+  background-color: $bcg-violeta;
+  padding: 0.938rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  .redes__instagram{
+    color: #D72C75;
+  }
+  .redes__facebook{
+    color: blue;
+  }
+  .redes__whatsapp{
+    color: #29a329;
+  }
+}
+
+@each $red in whatsapp, facebook, instagram {
+  .redes__#{$red} {
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
+.instagram{
+  width: 20px;
+  height: 20px;
+}
+
+/* Animaciones sobre iconos de REDES */
+.instagram:hover{
+  transform: rotateZ(-15deg);
+}
+.facebook:hover{
+  transform: rotateZ(-15deg);
+}
+.whatsapp:hover{
+  transform: rotateZ(-15deg);
+}
+
+/*Cuadro Medio*/
+.copyright{
+  text-align: center;
+  background-color: $bcg-violeta;
+  padding: 0.938rem;
+  color: #ffffff;
+  word-spacing: 6px;
+  line-height: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.688rem;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  .copyright__parrafoFooter{
+    width: 36.60vw;
+    height: 15.22vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+}
+   
+/*Cuadro inferior derecho*/
+.paginaSegura{
+  text-align: center;
+  background-color: $bcg-violeta;
+  padding: 0.938rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+
+  /*FLEXBOX*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .paginaSegura__check-logo{
+    width: 100px;
+    height: 100px;
+  }
+
+  .paginaSegura__txt{
+    font-size: 130%;
+  }
+}  
+
+.icono_menu{
+  width: 25px;
+  height: 25px;
+}
+  
+  
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 767px){
+  /*BOTONES ingresar y registrate*/
+  .botones{
+    padding: 0.5rem;
+  }
+  #ingresar{ /*boton ingresar*/
+    width: 20%;
+  }
+  #registrate{ /*boton registrate*/
+    width: 20%;
+  }
+  
+    /*Esto seria section superior o NAV INF pero para NAVBAR CELULAR Y TABLET*/
+    .sectionSupConteinerCell{
+      text-align: center;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      align-content: center;
+      flex-wrap: wrap;
+    }
+  
+  .sectionSupItemsCell{
+      color: black;
+      font-family: 'Poppins', sans-serif;
+      font-size:14px;
+      list-style-type: none;
+      text-decoration: none;
+      border: 2px solid #9F0909;
+      border-radius: 40px;
+      background-color: #C8C3C3;
+      height: 5vh;
+      width: 40vw;
+      margin: 5px;
+      padding: 5px;
+  }  
+  
+
+  /*Cuadro Medio*/
+  .copyright{
+    line-height: 1.20rem;
+    font-size: 0.6rem;
+    width: 100%;
+    height: auto;
+
+  
+    .copyright__parrafoFooter{
+      width: 31.25rem;
+      height: auto;
+    }
+  }
+
+}
+
+
+  .fotitoCarru{
+    height: 60.88vh;
+  }
+
+  // Para el oton añadir carrito
+  .violeta{
+    background-color: $bcg-violeta;
+    color: #fff;
+  }
+  
+  .violeta:hover{
+    background-color: #5c3e53;
+    color: #fff;
+  }
+
+  
+h6{
+  color: cadetblue;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.barraSuperior:hover{
+  color:$bcg-amarillo;
+}
+
+#colorWhite:hover{
+  color: $bcg-amarillo;
+}
