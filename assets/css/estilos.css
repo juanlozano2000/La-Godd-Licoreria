@@ -402,18 +402,13 @@
   .vodka-prueba {
     border: blue 1px solid;
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-items: center;
-    justify-items: center; }
+    height: 100%; }
     .vodka-prueba .vodkas-cajas__box1 {
       border: green 1px solid;
       width: 60%;
-      height: auto; } }
+      height: auto;
+      margin-left: 21.5%;
+      margin-top: 5%; } }
 
 /* estilos para pagina SIN ALCOHOL */
 .h1-sin_alcohol {
