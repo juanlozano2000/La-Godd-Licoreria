@@ -1,44 +1,31 @@
+// Variables
 $bcg-violeta: #3F2B39;
 $bcg-grisFondo: #EFEAEA;
 $bcg-bordeAside: rgb(213, 208, 214);
 $bcg-amarillo: #EEB738;
+$bcg-gris_hover: #d8d8d8;
+// Border para probar
+$border-rojo: solid 1px red;
 
 /* Estilos para seccion OFERTAS */
 /*PRODUCTOS PARA OFERTAS*/
 .ofertas-conteiner{
     color: #3F2B39;
     font-family: 'Poppins', sans-serif;
-    grid-area: masLlevados;
     text-align: center;
     background-color: #EFEAEA !important;
-    padding: 15px;
-}
-  
-  .ofertas-conteiner h3{
+
+    h3 {
     display: flex;
     justify-content: flex-start;
-  }
+    }
+}
   
   .ofertas-cajas{
-    margin-top: 20px;
-    width: 100%;
-    display: grid;
-    grid-template-areas: 
-    "img-1-o img-2-o img-3-o img-4-o"
-    "producto1O producto2O producto3O producto4O"
-    "oferta-1 oferta-2 oferta-3 oferta-4";
-
     .ofertas-cajas__box1{
         background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
 
-        .img-1-o{
-            grid-area: img-1-o;
-        }
         .producto1O{
-            grid-area: producto1O;
             font-weight: bold;
             font-size: 130%;
 
@@ -50,91 +37,9 @@ $bcg-amarillo: #EEB738;
             }
         }
         .oferta-1{
-            grid-area: oferta-1;
-            margin-bottom: 10px;
+            color: $bcg-violeta;
         }
     }
-
-    .ofertas-cajas__box2{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .img-2-o{
-            grid-area: img-2-o;
-        }
-        .producto2O{
-            grid-area: producto2O;
-            font-weight: bold;
-            font-size: 130%;
-
-            .offTachado{
-                text-decoration: line-through;
-            }
-            .offColor{
-                color: #EEB738;
-            }
-        }
-        .oferta-2{
-            grid-area: oferta-2;
-            margin-bottom: 10px;
-        }
-    }
-
-    .ofertas-cajas__box3{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .img-3-o{
-            grid-area: img-2-o;
-        }
-        .producto3O{
-            grid-area: producto2O;
-            font-weight: bold;
-            font-size: 130%;
-
-            .offTachado{
-                text-decoration: line-through;
-            }
-            .offColor{
-                color: #EEB738;
-            }
-        }
-        .oferta-3{
-            grid-area: oferta-2;
-            margin-bottom: 10px;
-        }
-    }    
-
-    .ofertas-cajas__box4{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .img-4-o{
-            grid-area: img-2-o;
-        }
-        .producto4O{
-            grid-area: producto2O;
-            font-weight: bold;
-            font-size: 130%;
-
-            .offTachado{
-                text-decoration: line-through;
-            }
-            .offColor{
-                color: #EEB738;
-            }
-        }
-        .oferta-4{
-            grid-area: oferta-2;
-            margin-bottom: 10px;
-        }
-    }    
 }
 
 
@@ -142,15 +47,7 @@ $bcg-amarillo: #EEB738;
 .ofertas-cajas .ofertas-cajas__box1:hover{
 transform: scale(1.1);
 }
-.ofertas-cajas .ofertas-cajas__box2:hover{
-transform: scale(1.1);
-}
-.ofertas-cajas .ofertas-cajas__box3:hover{
-transform: scale(1.1);
-}
-.ofertas-cajas .ofertas-cajas__box4:hover{
-transform: scale(1.1);
-}
+
 
 
 /*Violeta en ofertas rarisimo lo que pasa*/
@@ -166,4 +63,88 @@ transform: scale(1.1);
 /*Color blanco para item de ofertas que no me anda*/
 #colorWhite{
     color: #fff;
+}
+
+
+
+/*MEDIA para celular OFERTAS*/
+@media screen and (max-width: 767px){
+  .ofertas-conteiner{
+      max-width: 100%;
+      padding: 2%;
+  }
+
+  .ofertas-cajas{
+      padding: 2%;
+
+      .ofertas-centrado{
+          display: flex;
+          justify-content: center;
+      }
+
+      .ofertas-cajas__box1{
+          width: 60%;
+          height: auto;
+          margin: 2% 0%;
+      }
+
+
+  }
+
+  .ofertas-cajas .ofertas-cajas__box1:hover{
+      transform: none;
+      background-color: $bcg-gris_hover;
+  }
+
+}
+
+/*MEDIA para tablet OFERTAS*/
+@media screen and (min-width: 768px) and (max-width: 990px){
+  .ofertas-conteiner{
+      max-width: 100%;
+      padding: 2%;
+  }
+
+  .ofertas-cajas{
+      padding: 0%;
+
+      .ofertas-centrado{
+          display: flex;
+          justify-content: center;
+      }
+
+      .ofertas-cajas__box1{
+          width: 85%;
+          height: auto;
+          margin: 5%;
+      }
+  }
+
+  .ofertas-cajas .ofertas-cajas__box1:hover{
+      transform: none;
+      background-color: $bcg-gris_hover;
+  }
+
+}
+
+/*MEDIA para PC OFERTAS*/
+@media screen and (min-width: 990px){
+  .ofertas-conteiner{
+      padding: 2%;
+  }
+
+  .ofertas-cajas{
+      padding: 0%;
+
+      .ofertas-centrado{
+          display: flex;
+          justify-content: center;
+      }
+
+      .ofertas-cajas__box1{
+          width: 90%;
+          height: auto;
+          margin: 2%;
+      }
+  }
 }

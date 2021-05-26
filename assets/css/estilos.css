@@ -101,104 +101,26 @@
 .ofertas-conteiner {
   color: #3F2B39;
   font-family: 'Poppins', sans-serif;
-  grid-area: masLlevados;
   text-align: center;
-  background-color: #EFEAEA !important;
-  padding: 15px; }
+  background-color: #EFEAEA !important; }
+  .ofertas-conteiner h3 {
+    display: flex;
+    justify-content: flex-start; }
 
-.ofertas-conteiner h3 {
-  display: flex;
-  justify-content: flex-start; }
-
-.ofertas-cajas {
-  margin-top: 20px;
-  width: 100%;
-  display: grid;
-  grid-template-areas: "img-1-o img-2-o img-3-o img-4-o" "producto1O producto2O producto3O producto4O" "oferta-1 oferta-2 oferta-3 oferta-4"; }
-  .ofertas-cajas .ofertas-cajas__box1 {
-    background-color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px; }
-    .ofertas-cajas .ofertas-cajas__box1 .img-1-o {
-      grid-area: img-1-o; }
-    .ofertas-cajas .ofertas-cajas__box1 .producto1O {
-      grid-area: producto1O;
-      font-weight: bold;
-      font-size: 130%; }
-      .ofertas-cajas .ofertas-cajas__box1 .producto1O .offTachado {
-        text-decoration: line-through; }
-      .ofertas-cajas .ofertas-cajas__box1 .producto1O .offColor {
-        color: #EEB738; }
-    .ofertas-cajas .ofertas-cajas__box1 .oferta-1 {
-      grid-area: oferta-1;
-      margin-bottom: 10px; }
-  .ofertas-cajas .ofertas-cajas__box2 {
-    background-color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px; }
-    .ofertas-cajas .ofertas-cajas__box2 .img-2-o {
-      grid-area: img-2-o; }
-    .ofertas-cajas .ofertas-cajas__box2 .producto2O {
-      grid-area: producto2O;
-      font-weight: bold;
-      font-size: 130%; }
-      .ofertas-cajas .ofertas-cajas__box2 .producto2O .offTachado {
-        text-decoration: line-through; }
-      .ofertas-cajas .ofertas-cajas__box2 .producto2O .offColor {
-        color: #EEB738; }
-    .ofertas-cajas .ofertas-cajas__box2 .oferta-2 {
-      grid-area: oferta-2;
-      margin-bottom: 10px; }
-  .ofertas-cajas .ofertas-cajas__box3 {
-    background-color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px; }
-    .ofertas-cajas .ofertas-cajas__box3 .img-3-o {
-      grid-area: img-2-o; }
-    .ofertas-cajas .ofertas-cajas__box3 .producto3O {
-      grid-area: producto2O;
-      font-weight: bold;
-      font-size: 130%; }
-      .ofertas-cajas .ofertas-cajas__box3 .producto3O .offTachado {
-        text-decoration: line-through; }
-      .ofertas-cajas .ofertas-cajas__box3 .producto3O .offColor {
-        color: #EEB738; }
-    .ofertas-cajas .ofertas-cajas__box3 .oferta-3 {
-      grid-area: oferta-2;
-      margin-bottom: 10px; }
-  .ofertas-cajas .ofertas-cajas__box4 {
-    background-color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px; }
-    .ofertas-cajas .ofertas-cajas__box4 .img-4-o {
-      grid-area: img-2-o; }
-    .ofertas-cajas .ofertas-cajas__box4 .producto4O {
-      grid-area: producto2O;
-      font-weight: bold;
-      font-size: 130%; }
-      .ofertas-cajas .ofertas-cajas__box4 .producto4O .offTachado {
-        text-decoration: line-through; }
-      .ofertas-cajas .ofertas-cajas__box4 .producto4O .offColor {
-        color: #EEB738; }
-    .ofertas-cajas .ofertas-cajas__box4 .oferta-4 {
-      grid-area: oferta-2;
-      margin-bottom: 10px; }
+.ofertas-cajas .ofertas-cajas__box1 {
+  background-color: #fff; }
+  .ofertas-cajas .ofertas-cajas__box1 .producto1O {
+    font-weight: bold;
+    font-size: 130%; }
+    .ofertas-cajas .ofertas-cajas__box1 .producto1O .offTachado {
+      text-decoration: line-through; }
+    .ofertas-cajas .ofertas-cajas__box1 .producto1O .offColor {
+      color: #EEB738; }
+  .ofertas-cajas .ofertas-cajas__box1 .oferta-1 {
+    color: #3F2B39; }
 
 /* animaciones */
 .ofertas-cajas .ofertas-cajas__box1:hover {
-  transform: scale(1.1); }
-
-.ofertas-cajas .ofertas-cajas__box2:hover {
-  transform: scale(1.1); }
-
-.ofertas-cajas .ofertas-cajas__box3:hover {
-  transform: scale(1.1); }
-
-.ofertas-cajas .ofertas-cajas__box4:hover {
   transform: scale(1.1); }
 
 /*Violeta en ofertas rarisimo lo que pasa*/
@@ -213,6 +135,56 @@
 /*Color blanco para item de ofertas que no me anda*/
 #colorWhite {
   color: #fff; }
+
+/*MEDIA para celular OFERTAS*/
+@media screen and (max-width: 767px) {
+  .ofertas-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .ofertas-cajas {
+    padding: 2%; }
+    .ofertas-cajas .ofertas-centrado {
+      display: flex;
+      justify-content: center; }
+    .ofertas-cajas .ofertas-cajas__box1 {
+      width: 60%;
+      height: auto;
+      margin: 2% 0%; }
+  .ofertas-cajas .ofertas-cajas__box1:hover {
+    transform: none;
+    background-color: #d8d8d8; } }
+
+/*MEDIA para tablet OFERTAS*/
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .ofertas-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .ofertas-cajas {
+    padding: 0%; }
+    .ofertas-cajas .ofertas-centrado {
+      display: flex;
+      justify-content: center; }
+    .ofertas-cajas .ofertas-cajas__box1 {
+      width: 85%;
+      height: auto;
+      margin: 5%; }
+  .ofertas-cajas .ofertas-cajas__box1:hover {
+    transform: none;
+    background-color: #d8d8d8; } }
+
+/*MEDIA para PC OFERTAS*/
+@media screen and (min-width: 990px) {
+  .ofertas-conteiner {
+    padding: 2%; }
+  .ofertas-cajas {
+    padding: 0%; }
+    .ofertas-cajas .ofertas-centrado {
+      display: flex;
+      justify-content: center; }
+    .ofertas-cajas .ofertas-cajas__box1 {
+      width: 90%;
+      height: auto;
+      margin: 2%; } }
 
 /* estilos para pagina CERVEZA */
 .cervezas-conteiner {
