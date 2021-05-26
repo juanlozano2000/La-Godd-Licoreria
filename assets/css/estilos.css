@@ -380,9 +380,6 @@
 .vinos-cajas .vinos-cajas__box4:hover {
   transform: scale(1.1); }
 
-.h1-vodkas {
-  background-color: #3F2B39; }
-
 .vodkas-conteiner {
   color: #3F2B39;
   font-family: 'Poppins', sans-serif;
@@ -626,6 +623,71 @@
     transform: scale(1.1); }
     .valoraciones .valoraciones__caja1-Opinion:hover .valoraciones__caja1-Opinion--opinion1 {
       color: #3F2B39; }
+
+.otros-conteiner {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #EFEAEA; }
+  .otros-conteiner h3 {
+    display: flex;
+    justify-content: flex-start; }
+
+.otros-cajas .otros-cajas__box1 {
+  background-color: #fff; }
+  .otros-cajas .otros-cajas__box1 .otros-cajas__box1--producto1O {
+    font-weight: bold;
+    font-size: 130%; }
+  .otros-cajas .otros-cajas__box1 .otros-cajas__box1--promo-1 {
+    color: #3F2B39; }
+
+/* ANIMACIONES sobre Vodkas */
+.otros-cajas .otros-cajas__box1:hover {
+  transform: scale(1.1); }
+
+/*MEDIA para celular OTROS*/
+@media screen and (max-width: 767px) {
+  .otros-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .otros-cajas {
+    padding: 2%; }
+    .otros-cajas .otros-centrado {
+      display: flex;
+      justify-content: center; }
+    .otros-cajas .otros-cajas__box1 {
+      width: 60%;
+      height: auto;
+      margin: 2% 0%; } }
+
+/*MEDIA para tablet OTROS*/
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .otros-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .otros-cajas {
+    padding: 0%; }
+    .otros-cajas .otros-centrado {
+      display: flex;
+      justify-content: center; }
+    .otros-cajas .otros-cajas__box1 {
+      width: 85%;
+      height: auto;
+      margin: 5%; } }
+
+/*MEDIA para PC OTROS*/
+@media screen and (min-width: 990px) {
+  .otros-conteiner {
+    padding: 2%; }
+  .otros-cajas {
+    padding: 0%; }
+    .otros-cajas .otros-centrado {
+      display: flex;
+      justify-content: center; }
+    .otros-cajas .otros-cajas__box1 {
+      width: 90%;
+      height: auto;
+      margin: 2%; } }
 
 * {
   margin: 0;

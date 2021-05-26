@@ -7,7 +7,7 @@ $bcg-amarillo: #EEB738;
 $border-rojo: solid 1px red;
 
 
-.vodkas-conteiner{
+.otros-conteiner{
     color: $bcg-violeta;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -20,17 +20,17 @@ $border-rojo: solid 1px red;
     }
 }
 
-.vodkas-cajas{
+.otros-cajas{
     
-    .vodkas-cajas__box1{
+    .otros-cajas__box1{
         background-color: #fff;
 
-        .vodkas-cajas__box1--producto1Vod{
+        .otros-cajas__box1--producto1O{
             font-weight: bold;
             font-size: 130%;
         }
 
-        .vodkas-cajas__box1--promo-1{
+        .otros-cajas__box1--promo-1{
             color: $bcg-violeta;
         }
     }
@@ -38,27 +38,26 @@ $border-rojo: solid 1px red;
 
 
 /* ANIMACIONES sobre Vodkas */
-.vodkas-cajas .vodkas-cajas__box1:hover{
+.otros-cajas .otros-cajas__box1:hover{
 transform: scale(1.1);
 }
 
-
-/*MEDIA para celular VODKAS*/
+/*MEDIA para celular OTROS*/
 @media screen and (max-width: 767px){
-    .vodkas-conteiner{
+    .otros-conteiner{
         max-width: 100%;
         padding: 2%;
     }
 
-    .vodkas-cajas{
+    .otros-cajas{
         padding: 2%;
 
-        .vodka-centrado{
+        .otros-centrado{
             display: flex;
             justify-content: center;
         }
 
-        .vodkas-cajas__box1{
+        .otros-cajas__box1{
             width: 60%;
             height: auto;
             margin: 2% 0%;
@@ -69,53 +68,47 @@ transform: scale(1.1);
 
 }
 
-/*MEDIA para tablet VODKAS*/
+/*MEDIA para tablet OTROS*/
 @media screen and (min-width: 768px) and (max-width: 990px){
-    .vodkas-conteiner{
+    .otros-conteiner{
         max-width: 100%;
         padding: 2%;
     }
 
-    .vodkas-cajas{
+    .otros-cajas{
         padding: 0%;
 
-        .vodka-centrado{
+        .otros-centrado{
             display: flex;
             justify-content: center;
         }
 
-        .vodkas-cajas__box1{
+        .otros-cajas__box1{
             width: 85%;
             height: auto;
             margin: 5%;
         }
-
-
     }
-
 }
 
-/*MEDIA para PC VODKAS*/
+/*MEDIA para PC OTROS*/
 @media screen and (min-width: 990px){
-    .vodkas-conteiner{
+    .otros-conteiner{
         padding: 2%;
     }
 
-    .vodkas-cajas{
+    .otros-cajas{
         padding: 0%;
 
-        .vodka-centrado{
+        .otros-centrado{
             display: flex;
             justify-content: center;
         }
 
-        .vodkas-cajas__box1{
+        .otros-cajas__box1{
             width: 90%;
             height: auto;
             margin: 2%;
         }
-
-
     }
-
 }
