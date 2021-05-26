@@ -1,6 +1,13 @@
+// Variables
+$bcg-violeta: #3F2B39;
+$bcg-grisFondo: #EFEAEA;
+$bcg-bordeAside: rgb(213, 208, 214);
+$bcg-amarillo: #EEB738;
+$bcg-gris_hover: #d8d8d8;
+// Border para probar
+$border-rojo: solid 1px red;
+
 /*Estilos para PACKS*/
-
-
 .menuConteiner{
     display: flex;
     flex-direction: row;
@@ -26,12 +33,10 @@
 
 // Section principal
 .packs-conteiner{
-    color: #3F2B39;
+    color:$bcg-violeta;
     font-family: 'Poppins', sans-serif;
-    grid-area: masLlevados;
     text-align: center;
-    background-color: #EFEAEA;
-    padding: 15px;
+    background-color:$bcg-grisFondo;
 
     h3{
         display: flex;
@@ -41,62 +46,24 @@
   
 
 
-  .packs-cajas{
-    margin-top: 20px;
-    width: 100%;
-    display: grid;
-    grid-template-areas: 
-    "img-1-p img-2-p"
-    "producto1P producto2P"
-    "pack-1 pack-2";
+.packs-cajas{
+  .packs-cajas__box1{
+    background-color: #fff;
 
-    .packs-cajas__box1{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .img-1-p{
-            grid-area: img-1-p;
-        }
-        .producto1P{
-            grid-area: producto1P;
-            font-weight: bold;
-            font-size: 130%;
-        }
-        .pack-1{
-            grid-area: pack-1;
-            margin-bottom: 10px;
-        }
-    }
-
-    .packs-cajas__box2{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .img-2-p{
-            grid-area: img-2-p;
-        }
-        .producto2P{
-        grid-area: producto2P;
+    .packs-cajas__box1--producto1P{
         font-weight: bold;
         font-size: 130%;
-        }
-        .pack-2{
-        grid-area: pack-2;
-        margin-bottom: 10px;
-        }
     }
-  }
 
-// animaciones  
+    .packs-cajas__box1--promo-1{
+        color: $bcg-violeta;
+    }
+  }  
+}
+
+/*ANIMACIONES para PACKS*/
 .packs-cajas{ 
     .packs-cajas__box1:hover{
-        transform: scale(1.1);
-    }
-    .packs-cajas__box2:hover{
         transform: scale(1.1);
     }
 }
@@ -106,7 +73,7 @@
 // FOOTER de packs
 .redes {
     text-align: center;
-    background-color: #3F2B39;
+    background-color: $bcg-violeta;
     padding: 15px;
   
     display: flex;
@@ -137,5 +104,90 @@
       font-size: 14px;
       padding: 5px;
     }
+}
+
+
+
+
+
+/*MEDIA para celular PACKS*/
+@media screen and (max-width: 767px){
+  .packs-conteiner{
+      max-width: 100%;
+      padding: 2%;
   }
 
+  .packs-cajas{
+      padding: 2%;
+
+      .packs-centrado{
+          display: flex;
+          justify-content: center;
+      }
+
+      .packs-cajas__box1{
+          width: 60%;
+          height: auto;
+          margin: 2% 0%;
+      }
+
+
+  }
+
+  .packs-cajas .packs-cajas__box1:hover{
+      transform: none;
+      background-color: $bcg-gris_hover;
+  }
+
+}
+
+/*MEDIA para tablet PACKS*/
+@media screen and (min-width: 768px) and (max-width: 990px){
+  .packs-conteiner{
+      max-width: 100%;
+      padding: 2%;
+  }
+
+  .packs-cajas{
+      padding: 0%;
+
+      .packs-centrado{
+          display: flex;
+          justify-content: center;
+      }
+
+      .packs-cajas__box1{
+          width: 70%;
+          height: auto;
+          margin: 5%;
+      }
+  }
+
+  .packs-cajas .packs-cajas__box1:hover{
+      transform: none;
+      background-color: $bcg-gris_hover;
+  }
+
+}
+
+/*MEDIA para PC PACKS*/
+@media screen and (min-width: 990px){
+  .packs-conteiner{
+      padding: 2%;
+  }
+
+  .packs-cajas{
+      padding: 0%;
+
+      .packs-centrado{
+          display: flex;
+          justify-content: center;
+      }
+
+      .packs-cajas__box1{
+          width: 75%;
+          height: auto;
+          margin: 2%;
+      }
+  }
+}
