@@ -66,6 +66,10 @@ transform: scale(1.1);
 
     }
 
+    .otros-cajas .otros-cajas__box1:hover{
+        transform: none;
+    }
+
 }
 
 /*MEDIA para tablet OTROS*/
@@ -89,6 +93,11 @@ transform: scale(1.1);
             margin: 5%;
         }
     }
+
+    .otros-cajas .otros-cajas__box1:hover{
+        transform: none;
+    }
+
 }
 
 /*MEDIA para PC OTROS*/
