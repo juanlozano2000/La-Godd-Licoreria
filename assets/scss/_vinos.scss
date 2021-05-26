@@ -1,96 +1,38 @@
 // Variables
 $bcg-violeta: #3F2B39;
+$bcg-grisFondo: #EFEAEA;
+$bcg-bordeAside: rgb(213, 208, 214);
+$bcg-amarillo: #EEB738;
+$bcg-gris_hover: #d8d8d8;
+// Border para probar
+$border-rojo: solid 1px red;
 
-.h1-vinos{
-    background-color: $bcg-violeta;
-}
+
 
 /* estilos para pagina VINOS */
 .vinos-conteiner{
-    color: #3F2B39;
+    color: $bcg-violeta;
     font-family: 'Poppins', sans-serif;
-    grid-area: masLlevados;
     text-align: center;
-    background-color: #EFEAEA;
-    padding: 15px;
+    background-color: $bcg-grisFondo;
 
-    display: flex;
-    flex-direction: row;
 
     h3{
-    display: flex;
-    justify-content: flex-start;
-  }
-  }
+        display: flex;
+        justify-content: flex-start;
+    }
+}
 
 .vinos-cajas{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
     .vinos-cajas__box1{
         background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
 
         .vinos-cajas__box1--producto1V{
-            grid-area: producto1V;
             font-weight: bold;
             font-size: 130%;
         }
 
         .vinos-cajas__box1--promo-1{
-            color: $bcg-violeta;
-        }
-    }
-
-    .vinos-cajas__box2{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .vinos-cajas__box2--producto2V{
-            grid-area: producto1V;
-            font-weight: bold;
-            font-size: 130%;
-        }
-
-        .vinos-cajas__box2--promo-2{
-            color: $bcg-violeta;
-        }
-    }
-
-    .vinos-cajas__box3{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .vinos-cajas__box3--producto3V{
-            grid-area: producto1V;
-            font-weight: bold;
-            font-size: 130%;
-        }
-
-        .vinos-cajas__box3--promo-3{
-            color: $bcg-violeta;
-        }
-    }
-
-    .vinos-cajas__box4{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .vinos-cajas__box4--producto4V{
-            grid-area: producto1V;
-            font-weight: bold;
-            font-size: 130%;
-        }
-
-        .vinos-cajas__box4--promo-4{
             color: $bcg-violeta;
         }
     }
@@ -101,12 +43,90 @@ $bcg-violeta: #3F2B39;
 .vinos-cajas .vinos-cajas__box1:hover{
 transform: scale(1.1);
 }
-.vinos-cajas .vinos-cajas__box2:hover{
-    transform: scale(1.1);
+
+
+
+
+
+
+/*MEDIA para celular VINOS*/
+@media screen and (max-width: 767px){
+    .vinos-conteiner{
+        max-width: 100%;
+        padding: 2%;
+    }
+
+    .vinos-cajas{
+        padding: 2%;
+
+        .vinos-centrado{
+            display: flex;
+            justify-content: center;
+        }
+
+        .vinos-cajas__box1{
+            width: 60%;
+            height: auto;
+            margin: 2% 0%;
+        }
+
+
+    }
+
+    .vinos-cajas .vinos-cajas__box1:hover{
+        transform: none;
+        background-color: $bcg-gris_hover;
+    }
+
 }
-.vinos-cajas .vinos-cajas__box3:hover{
-    transform: scale(1.1);
+
+/*MEDIA para tablet VINOS*/
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .vinos-conteiner{
+        max-width: 100%;
+        padding: 2%;
+    }
+
+    .vinos-cajas{
+        padding: 0%;
+
+        .vinos-centrado{
+            display: flex;
+            justify-content: center;
+        }
+
+        .vinos-cajas__box1{
+            width: 85%;
+            height: auto;
+            margin: 5%;
+        }
+    }
+
+    .vinos-cajas .vinos-cajas__box1:hover{
+        transform: none;
+        background-color: $bcg-gris_hover;
+    }
+
 }
-.vinos-cajas .vinos-cajas__box4:hover{
-    transform: scale(1.1);
+
+/*MEDIA para PC VINOS*/
+@media screen and (min-width: 990px){
+    .vinos-conteiner{
+        padding: 2%;
+    }
+
+    .vinos-cajas{
+        padding: 0%;
+
+        .vinos-centrado{
+            display: flex;
+            justify-content: center;
+        }
+
+        .vinos-cajas__box1{
+            width: 90%;
+            height: auto;
+            margin: 2%;
+        }
+    }
 }
