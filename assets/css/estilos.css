@@ -392,24 +392,32 @@
     display: flex;
     justify-content: flex-start; }
 
+.vodkas-cajas .vodkas-cajas__box1 {
+  background-color: #fff; }
+  .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--producto1Vod {
+    font-weight: bold;
+    font-size: 130%; }
+  .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--promo-1 {
+    color: #3F2B39; }
+
 /* ANIMACIONES sobre VINOS */
 .vodkas-cajas .vodkas-cajas__box1:hover {
   transform: scale(1.1); }
 
+/*MEDIA para celular VODKAS*/
 @media screen and (max-width: 767px) {
   .vodkas-conteiner {
-    border: solid 1px red; }
-  .vodka-prueba {
-    border: blue 1px solid;
-    width: 100%;
-    height: 100%; }
-    .vodka-prueba .vodka-prueba2 {
+    max-width: 100%;
+    padding: 2%; }
+  .vodkas-cajas {
+    padding: 2%; }
+    .vodkas-cajas .vodka-centrado {
       display: flex;
       justify-content: center; }
-    .vodka-prueba .vodkas-cajas__box1 {
-      border: green 1px solid;
+    .vodkas-cajas .vodkas-cajas__box1 {
       width: 60%;
-      height: auto; } }
+      height: auto;
+      margin: 2% 0%; } }
 
 /* estilos para pagina SIN ALCOHOL */
 .h1-sin_alcohol {
