@@ -451,83 +451,75 @@
       height: auto;
       margin: 2%; } }
 
-/* estilos para pagina SIN ALCOHOL */
-.h1-sin_alcohol {
-  background-color: #3F2B39; }
-
 .sin_alcohol-conteiner {
   color: #3F2B39;
   font-family: 'Poppins', sans-serif;
-  grid-area: masLlevados;
   text-align: center;
-  background-color: #EFEAEA;
-  padding: 15px;
-  display: flex;
-  flex-direction: row; }
+  background-color: #EFEAEA; }
   .sin_alcohol-conteiner h3 {
     display: flex;
     justify-content: flex-start; }
 
-.sin_alcohol-cajas {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-  .sin_alcohol-cajas .sin_alcohol-cajas__box1 {
-    background-color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px; }
-    .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--producto1Sin {
-      grid-area: producto1V;
-      font-weight: bold;
-      font-size: 130%; }
-    .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--promo-1 {
-      color: #3F2B39; }
-  .sin_alcohol-cajas .sin_alcohol-cajas__box2 {
-    background-color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px; }
-    .sin_alcohol-cajas .sin_alcohol-cajas__box2 .sin_alcohol-cajas__box2--producto2Sin {
-      grid-area: producto1V;
-      font-weight: bold;
-      font-size: 130%; }
-    .sin_alcohol-cajas .sin_alcohol-cajas__box2 .sin_alcohol-cajas__box2--promo-2 {
-      color: #3F2B39; }
-  .sin_alcohol-cajas .sin_alcohol-cajas__box3 {
-    background-color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px; }
-    .sin_alcohol-cajas .sin_alcohol-cajas__box3 .sin_alcohol-cajas__box3--producto3Sin {
-      grid-area: producto1V;
-      font-weight: bold;
-      font-size: 130%; }
-    .sin_alcohol-cajas .sin_alcohol-cajas__box3 .sin_alcohol-cajas__box3--promo-3 {
-      color: #3F2B39; }
-  .sin_alcohol-cajas .sin_alcohol-cajas__box4 {
-    background-color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px; }
-    .sin_alcohol-cajas .sin_alcohol-cajas__box4 .sin_alcohol-cajas__box4--producto4Sin {
-      grid-area: producto1V;
-      font-weight: bold;
-      font-size: 130%; }
-    .sin_alcohol-cajas .sin_alcohol-cajas__box4 .sin_alcohol-cajas__box4--promo-4 {
-      color: #3F2B39; }
+.sin_alcohol-cajas .sin_alcohol-cajas__box1 {
+  background-color: #fff; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--producto1Sin {
+    font-weight: bold;
+    font-size: 130%; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--promo-1 {
+    color: #3F2B39; }
 
-/* ANIMACIONES sobre VINOS */
+/* ANIMACIONES sobre SIN ALCOHOL */
 .sin_alcohol-cajas .sin_alcohol-cajas__box1:hover {
   transform: scale(1.1); }
 
-.sin_alcohol-cajas .sin_alcohol-cajas__box2:hover {
-  transform: scale(1.1); }
+/*MEDIA para celular SIN ALCOHOL*/
+@media screen and (max-width: 767px) {
+  .sin_alcohol-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .sin_alcohol-cajas {
+    padding: 2%; }
+    .sin_alcohol-cajas .sin_alcohol-centrado {
+      display: flex;
+      justify-content: center; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box1 {
+      width: 60%;
+      height: auto;
+      margin: 2% 0%; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box1:hover {
+    transform: none; } }
 
-.sin_alcohol-cajas .sin_alcohol-cajas__box3:hover {
-  transform: scale(1.1); }
+/*MEDIA para tablet SIN ALCOHOL*/
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .sin_alcohol-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .sin_alcohol-cajas {
+    padding: 0%; }
+    .sin_alcohol-cajas .sin_alcohol-centrado {
+      display: flex;
+      justify-content: center; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box1 {
+      width: 85%;
+      height: auto;
+      margin: 5%; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box1:hover {
+    transform: none;
+    background-color: #d8d8d8; } }
 
-.sin_alcohol-cajas .sin_alcohol-cajas__box4:hover {
-  transform: scale(1.1); }
+/*MEDIA para PC SIN ALCOHOL*/
+@media screen and (min-width: 990px) {
+  .sin_alcohol-conteiner {
+    padding: 2%; }
+  .sin_alcohol-cajas {
+    padding: 0%; }
+    .sin_alcohol-cajas .sin_alcohol-centrado {
+      display: flex;
+      justify-content: center; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box1 {
+      width: 90%;
+      height: auto;
+      margin: 2%; } }
 
 .h1-grande {
   font-size: 200%; }
