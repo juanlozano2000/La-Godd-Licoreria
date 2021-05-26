@@ -414,7 +414,10 @@
     .vodkas-cajas .vodkas-cajas__box1 {
       width: 60%;
       height: auto;
-      margin: 2% 0%; } }
+      margin: 2% 0%; }
+  .vodkas-cajas .vodkas-cajas__box1:hover {
+    transform: none;
+    background-color: #d8d8d8; } }
 
 /*MEDIA para tablet VODKAS*/
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -429,7 +432,10 @@
     .vodkas-cajas .vodkas-cajas__box1 {
       width: 85%;
       height: auto;
-      margin: 5%; } }
+      margin: 5%; }
+  .vodkas-cajas .vodkas-cajas__box1:hover {
+    transform: none;
+    background-color: #d8d8d8; } }
 
 /*MEDIA para PC VODKAS*/
 @media screen and (min-width: 990px) {
@@ -677,7 +683,8 @@
       height: auto;
       margin: 5%; }
   .otros-cajas .otros-cajas__box1:hover {
-    transform: none; } }
+    transform: none;
+    background-color: #d8d8d8; } }
 
 /*MEDIA para PC OTROS*/
 @media screen and (min-width: 990px) {

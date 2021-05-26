@@ -3,6 +3,7 @@ $bcg-violeta: #3F2B39;
 $bcg-grisFondo: #EFEAEA;
 $bcg-bordeAside: rgb(213, 208, 214);
 $bcg-amarillo: #EEB738;
+$bcg-gris_hover: #d8d8d8;
 // Border para probar
 $border-rojo: solid 1px red;
 
@@ -67,6 +68,11 @@ transform: scale(1.1);
 
     }
 
+    .vodkas-cajas .vodkas-cajas__box1:hover{
+        transform: none;
+        background-color: $bcg-gris_hover;
+    }
+
 }
 
 /*MEDIA para tablet VODKAS*/
@@ -89,8 +95,11 @@ transform: scale(1.1);
             height: auto;
             margin: 5%;
         }
+    }
 
-
+    .vodkas-cajas .vodkas-cajas__box1:hover{
+        transform: none;
+        background-color: $bcg-gris_hover;
     }
 
 }
