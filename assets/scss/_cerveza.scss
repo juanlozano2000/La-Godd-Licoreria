@@ -1,119 +1,127 @@
+// Variables
+$bcg-violeta: #3F2B39;
+$bcg-grisFondo: #EFEAEA;
+$bcg-bordeAside: rgb(213, 208, 214);
+$bcg-amarillo: #EEB738;
+$bcg-gris_hover: #d8d8d8;
+// Border para probar
+$border-rojo: solid 1px red;
+
 /* estilos para pagina CERVEZA */
 .cervezas-conteiner{
-    color: #3F2B39;
-    font-family: 'Poppins', sans-serif;
-    grid-area: masLlevados;
-    text-align: center;
-    background-color: #EFEAEA;
-    padding: 15px;
-}
+  color: $bcg-violeta;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: $bcg-grisFondo;
 
-.cervezas-conteiner h3{
-    display: flex;
-    justify-content: flex-start;
+
+  h3{
+      display: flex;
+      justify-content: flex-start;
+  }
 }
 
 
 .cervezas-cajas{
-    margin-top: 20px;
-    width: 100%;
-    display: grid;
-    grid-template-areas: 
-    "img-1-c img-2-c img-3-c img-4-c"
-    "producto1C producto2C producto3C producto4C"
-    "cerveza-1 cerveza-2 cerveza-3 cerveza-4";
+  .cervezas-cajas__box1{
+    background-color: #fff;
 
-    .cervezas-cajas__box1{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .img-1-c{
-            grid-area: img-1-c;
-        }
-          .producto1C{
-            grid-area: producto1C;
-            font-weight: bold;
-            font-size: 130%;
-        }
-          .cerveza-1{
-            grid-area: cerveza-1;
-            margin-bottom: 10px;
-        }        
+    .cervezas-cajas__box1--producto1C{
+        font-weight: bold;
+        font-size: 130%;
     }
 
-    .cervezas-cajas__box2{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .img-2-c{
-            grid-area: img-1-c;
-        }
-          .producto2C{
-            grid-area: producto1C;
-            font-weight: bold;
-            font-size: 130%;
-        }
-          .cerveza-2{
-            grid-area: cerveza-1;
-            margin-bottom: 10px;
-        } 
-    }    
-
-    .cervezas-cajas__box3{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .img-3-c{
-            grid-area: img-1-c;
-        }
-          .producto3C{
-            grid-area: producto1C;
-            font-weight: bold;
-            font-size: 130%;
-        }
-          .cerveza-3{
-            grid-area: cerveza-1;
-            margin-bottom: 10px;
-        } 
-    }   
-
-    .cervezas-cajas__box4{
-        background-color: #fff;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 15px;
-
-        .img-4-c{
-            grid-area: img-1-c;
-        }
-          .producto4C{
-            grid-area: producto1C;
-            font-weight: bold;
-            font-size: 130%;
-        }
-          .cerveza-4{
-            grid-area: cerveza-1;
-            margin-bottom: 10px;
-        } 
-    }   
+    .cervezas-cajas__box1--promo-1{
+        color: $bcg-violeta;
+    }
+  }
 }
 
 /* ANIMACIONES SOBRE CERVEZA */
 .cervezas-cajas .cervezas-cajas__box1:hover{
 transform: scale(1.1);
 }
-.cervezas-cajas .cervezas-cajas__box2:hover{
-transform: scale(1.1);
+
+
+
+/*MEDIA para celular CERVEZAS*/
+@media screen and (max-width: 767px){
+  .cervezas-conteiner{
+      max-width: 100%;
+      padding: 2%;
+  }
+
+  .cervezas-cajas{
+      padding: 2%;
+
+      .cervezas-centrado{
+          display: flex;
+          justify-content: center;
+      }
+
+      .cervezas-cajas__box1{
+          width: 60%;
+          height: auto;
+          margin: 2% 0%;
+      }
+
+
+  }
+
+  .cervezas-cajas .cervezas-cajas__box1:hover{
+      transform: none;
+      background-color: $bcg-gris_hover;
+  }
+
 }
-.cervezas-cajas .cervezas-cajas__box3:hover{
-transform: scale(1.1);
+
+/*MEDIA para tablet CERVEZAS*/
+@media screen and (min-width: 768px) and (max-width: 990px){
+  .cervezas-conteiner{
+      max-width: 100%;
+      padding: 2%;
+  }
+
+  .cervezas-cajas{
+      padding: 0%;
+
+      .cervezas-centrado{
+          display: flex;
+          justify-content: center;
+      }
+
+      .cervezas-cajas__box1{
+          width: 85%;
+          height: auto;
+          margin: 5%;
+      }
+  }
+
+  .cervezas-cajas .cervezas-cajas__box1:hover{
+      transform: none;
+      background-color: $bcg-gris_hover;
+  }
+
 }
-.cervezas-cajas .cervezas-cajas__box4:hover{
-transform: scale(1.1);
+
+/*MEDIA para PC CERVEZAS*/
+@media screen and (min-width: 990px){
+  .cervezas-conteiner{
+      padding: 2%;
+  }
+
+  .cervezas-cajas{
+      padding: 0%;
+
+      .cervezas-centrado{
+          display: flex;
+          justify-content: center;
+      }
+
+      .cervezas-cajas__box1{
+          width: 90%;
+          height: auto;
+          margin: 2%;
+      }
+  }
 }
