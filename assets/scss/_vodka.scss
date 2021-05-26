@@ -15,10 +15,7 @@ $border-rojo: solid 1px red;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     background-color: $bcg-grisFondo;
-    // padding: 15px;
 
-    // display: flex;
-    // flex-direction: row;
 
     h3{
         display: flex;
@@ -43,7 +40,7 @@ $border-rojo: solid 1px red;
 }
 
 
-/* ANIMACIONES sobre VINOS */
+/* ANIMACIONES sobre Vodkas */
 .vodkas-cajas .vodkas-cajas__box1:hover{
 transform: scale(1.1);
 }
@@ -94,6 +91,31 @@ transform: scale(1.1);
             width: 85%;
             height: auto;
             margin: 5%;
+        }
+
+
+    }
+
+}
+
+/*MEDIA para PC VODKAS*/
+@media screen and (min-width: 990px){
+    .vodkas-conteiner{
+        padding: 2%;
+    }
+
+    .vodkas-cajas{
+        padding: 0%;
+
+        .vodka-centrado{
+            display: flex;
+            justify-content: center;
+        }
+
+        .vodkas-cajas__box1{
+            width: 90%;
+            height: auto;
+            margin: 2%;
         }
 
 
