@@ -6,8 +6,11 @@ $bcg-amarillo: #EEB738;
 // Borde para probar
 $border-rojo: solid 1px red;
 
-/*Esto seria section superior o NAV INF*/
 
+.promosIndex{
+  width: 100%; //si pongo auto tiene el tamaño como antes...
+  border: $border-rojo;
+}
   
 
 /*PRODUCTOS MAS LLEVADOS*/
@@ -19,7 +22,7 @@ background-color: #EFEAEA;
 padding: 0.938rem;
 }
 
-/*grid area de productos mas llevados*/
+
 .productosMasLlevados{
 width: 100%;
 padding: 0.938rem 1.25rem;
@@ -48,6 +51,126 @@ padding: 0.938rem 1.25rem;
   .productosMasLlevados .caja1:hover{
     transform: scale(1.1);
   }
+
+
+  // VODKAS ASASASASASASA
+  .vodkas-conteiner{
+    color: $bcg-violeta;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: $bcg-grisFondo;
+
+
+    h3{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+.vodkas-cajas{
+    
+    .vodkas-cajas__box1{
+        background-color: #fff;
+
+        .vodkas-cajas__box1--producto1Vod{
+            font-weight: bold;
+            font-size: 130%;
+        }
+
+        .vodkas-cajas__box1--promo-1{
+            color: $bcg-violeta;
+        }
+    }
+}
+
+
+
+/*MEDIA para celular VODKAS*/
+@media screen and (max-width: 767px){
+    .vodkas-conteiner{
+        max-width: 100%;
+        padding: 2%;
+    }
+
+    .vodkas-cajas{
+        padding: 2%;
+
+        .vodka-centrado{
+            display: flex;
+            justify-content: center;
+        }
+
+        .vodkas-cajas__box1{
+            width: 60%;
+            height: auto;
+            margin: 2% 0%;
+        }
+
+
+    }
+
+    .vodkas-cajas .vodkas-cajas__box1:hover{
+        transform: none;
+        background-color: $bcg-gris_hover;
+    }
+
+}
+
+/*MEDIA para tablet VODKAS*/
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .vodkas-conteiner{
+        max-width: 100%;
+        padding: 2%;
+    }
+
+    .vodkas-cajas{
+        padding: 0%;
+
+        .vodka-centrado{
+            display: flex;
+            justify-content: center;
+        }
+
+        .vodkas-cajas__box1{
+            width: 85%;
+            height: auto;
+            margin: 5%;
+        }
+    }
+
+    .vodkas-cajas .vodkas-cajas__box1:hover{
+        transform: none;
+        background-color: $bcg-gris_hover;
+    }
+
+}
+
+/*MEDIA para PC VODKAS*/
+@media screen and (min-width: 990px){
+    .vodkas-conteiner{
+        padding: 2%;
+    }
+
+    .vodkas-cajas{
+        padding: 0%;
+
+        .vodka-centrado{
+            display: flex;
+            justify-content: center;
+        }
+
+        .vodkas-cajas__box1{
+            width: 90%;
+            height: auto;
+            margin: 2%;
+        }
+
+
+    }
+
+}
+
 
 
 /*ASIDE*/

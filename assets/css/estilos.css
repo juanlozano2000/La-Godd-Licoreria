@@ -501,7 +501,10 @@
 .formulario {
   background-color: #EFEAEA; }
 
-/*Esto seria section superior o NAV INF*/
+.promosIndex {
+  width: 100%;
+  border: solid 1px red; }
+
 /*PRODUCTOS MAS LLEVADOS*/
 .masLlevados {
   color: #3F2B39;
@@ -510,7 +513,6 @@
   background-color: #EFEAEA;
   padding: 0.938rem; }
 
-/*grid area de productos mas llevados*/
 .productosMasLlevados {
   width: 100%;
   padding: 0.938rem 1.25rem; }
@@ -537,6 +539,74 @@
 /* Animaciones sobre los productos mas llevados */
 .productosMasLlevados .caja1:hover {
   transform: scale(1.1); }
+
+.vodkas-conteiner {
+  color: #3F2B39;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #EFEAEA; }
+  .vodkas-conteiner h3 {
+    display: flex;
+    justify-content: flex-start; }
+
+.vodkas-cajas .vodkas-cajas__box1 {
+  background-color: #fff; }
+  .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--producto1Vod {
+    font-weight: bold;
+    font-size: 130%; }
+  .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--promo-1 {
+    color: #3F2B39; }
+
+/*MEDIA para celular VODKAS*/
+@media screen and (max-width: 767px) {
+  .vodkas-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .vodkas-cajas {
+    padding: 2%; }
+    .vodkas-cajas .vodka-centrado {
+      display: flex;
+      justify-content: center; }
+    .vodkas-cajas .vodkas-cajas__box1 {
+      width: 60%;
+      height: auto;
+      margin: 2% 0%; }
+  .vodkas-cajas .vodkas-cajas__box1:hover {
+    transform: none;
+    background-color: #d8d8d8; } }
+
+/*MEDIA para tablet VODKAS*/
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .vodkas-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .vodkas-cajas {
+    padding: 0%; }
+    .vodkas-cajas .vodka-centrado {
+      display: flex;
+      justify-content: center; }
+    .vodkas-cajas .vodkas-cajas__box1 {
+      width: 85%;
+      height: auto;
+      margin: 5%; }
+  .vodkas-cajas .vodkas-cajas__box1:hover {
+    transform: none;
+    background-color: #d8d8d8; } }
+
+/*MEDIA para PC VODKAS*/
+@media screen and (min-width: 990px) {
+  .vodkas-conteiner {
+    padding: 2%; }
+  .vodkas-cajas {
+    padding: 0%; }
+    .vodkas-cajas .vodka-centrado {
+      display: flex;
+      justify-content: center; }
+    .vodkas-cajas .vodkas-cajas__box1 {
+      width: 90%;
+      height: auto;
+      margin: 2%; } }
 
 /*ASIDE*/
 .interesar {
@@ -638,7 +708,10 @@
       height: auto;
       margin: 2%; } }
 
-/*Esto seria section superior o NAV INF*/
+.promosIndex {
+  width: 100%;
+  border: solid 1px red; }
+
 /*PRODUCTOS MAS LLEVADOS*/
 .masLlevados {
   color: #3F2B39;
@@ -647,7 +720,6 @@
   background-color: #EFEAEA;
   padding: 0.938rem; }
 
-/*grid area de productos mas llevados*/
 .productosMasLlevados {
   width: 100%;
   padding: 0.938rem 1.25rem; }
@@ -674,6 +746,74 @@
 /* Animaciones sobre los productos mas llevados */
 .productosMasLlevados .caja1:hover {
   transform: scale(1.1); }
+
+.vodkas-conteiner {
+  color: #3F2B39;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #EFEAEA; }
+  .vodkas-conteiner h3 {
+    display: flex;
+    justify-content: flex-start; }
+
+.vodkas-cajas .vodkas-cajas__box1 {
+  background-color: #fff; }
+  .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--producto1Vod {
+    font-weight: bold;
+    font-size: 130%; }
+  .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--promo-1 {
+    color: #3F2B39; }
+
+/*MEDIA para celular VODKAS*/
+@media screen and (max-width: 767px) {
+  .vodkas-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .vodkas-cajas {
+    padding: 2%; }
+    .vodkas-cajas .vodka-centrado {
+      display: flex;
+      justify-content: center; }
+    .vodkas-cajas .vodkas-cajas__box1 {
+      width: 60%;
+      height: auto;
+      margin: 2% 0%; }
+  .vodkas-cajas .vodkas-cajas__box1:hover {
+    transform: none;
+    background-color: #d8d8d8; } }
+
+/*MEDIA para tablet VODKAS*/
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .vodkas-conteiner {
+    max-width: 100%;
+    padding: 2%; }
+  .vodkas-cajas {
+    padding: 0%; }
+    .vodkas-cajas .vodka-centrado {
+      display: flex;
+      justify-content: center; }
+    .vodkas-cajas .vodkas-cajas__box1 {
+      width: 85%;
+      height: auto;
+      margin: 5%; }
+  .vodkas-cajas .vodkas-cajas__box1:hover {
+    transform: none;
+    background-color: #d8d8d8; } }
+
+/*MEDIA para PC VODKAS*/
+@media screen and (min-width: 990px) {
+  .vodkas-conteiner {
+    padding: 2%; }
+  .vodkas-cajas {
+    padding: 0%; }
+    .vodkas-cajas .vodka-centrado {
+      display: flex;
+      justify-content: center; }
+    .vodkas-cajas .vodkas-cajas__box1 {
+      width: 90%;
+      height: auto;
+      margin: 2%; } }
 
 /*ASIDE*/
 .interesar {
@@ -982,9 +1122,6 @@ h1 {
   font-weight: 300;
   letter-spacing: 1px;
   font-size: 100%; }
-
-body {
-  overflow-x: hidden; }
 
 .barraSuperior:hover {
   color: #EEB738; }
