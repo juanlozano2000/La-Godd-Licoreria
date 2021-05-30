@@ -60,7 +60,6 @@ padding: 0.938rem 1.25rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        border: $border-rojo;
     }
 
     .productosMasLlevados{
@@ -81,7 +80,7 @@ padding: 0.938rem 1.25rem;
 
     }
 
-    .productosMasLlevados .caja1I:hover{
+    .productosMasLlevados .caja1:hover{
         transform: none;
         background-color: $bcg-gris_hover;
     }
@@ -90,27 +89,32 @@ padding: 0.938rem 1.25rem;
 
 /*MEDIA para tablet INDEX*/
 @media screen and (min-width: 768px) and (max-width: 990px){
-    .vodkas-conteiner{
+    .masLlevados{
         max-width: 100%;
-        padding: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .vodkas-cajas{
-        padding: 0%;
+    .productosMasLlevados{
+        padding: 2%;
+        max-width: 100%;
 
-        .vodka-centrado{
+        .index-centrado{
             display: flex;
             justify-content: center;
         }
 
-        .vodkas-cajas__box1{
+        .caja1{
             width: 85%;
             height: auto;
             margin: 5%;
         }
+
+
     }
 
-    .vodkas-cajas .vodkas-cajas__box1:hover{
+    .productosMasLlevados .caja1:hover{
         transform: none;
         background-color: $bcg-gris_hover;
     }
@@ -119,27 +123,28 @@ padding: 0.938rem 1.25rem;
 
 /*MEDIA para PC INDEX*/
 @media screen and (min-width: 990px){
-    .vodkas-conteiner{
-        padding: 2%;
+    .masLlevados{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .vodkas-cajas{
-        padding: 0%;
+    .productosMasLlevados{
+        padding: 2%;
+        max-width: 100%;
 
-        .vodka-centrado{
+        .index-centrado{
             display: flex;
             justify-content: center;
         }
 
-        .vodkas-cajas__box1{
-            width: 90%;
+        .caja1{
+            width: 95%;
             height: auto;
-            margin: 2%;
+            margin: 5%;
         }
-
-
     }
-
 }
 
 
