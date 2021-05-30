@@ -502,31 +502,6 @@
   background-color: #EFEAEA; }
 
 /*Esto seria section superior o NAV INF*/
-/*Esto seria section superior o NAV INF*/
-.navInf {
-  text-align: center;
-  background-color: #EEB738; }
-  .navInf .navInf__sectionSupItems {
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
-    border: 2px solid #9F0909;
-    border-radius: 40px;
-    padding: 5px 3.75rem;
-    background-color: #C8C3C3;
-    height: 5vh;
-    width: 180px;
-    display: flex;
-    align-items: center;
-    justify-items: center; }
-
-.navInf__sectionSupItems:hover {
-  color: white;
-  background-color: #9F0909; }
-
 /*PRODUCTOS MAS LLEVADOS*/
 .masLlevados {
   color: #3F2B39;
@@ -663,6 +638,73 @@
       height: auto;
       margin: 2%; } }
 
+/*Esto seria section superior o NAV INF*/
+/*PRODUCTOS MAS LLEVADOS*/
+.masLlevados {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #EFEAEA;
+  padding: 0.938rem; }
+
+/*grid area de productos mas llevados*/
+.productosMasLlevados {
+  width: 100%;
+  padding: 0.938rem 1.25rem; }
+
+/*Products mas llevados caracteristicas*/
+.producto1I {
+  font-weight: bold;
+  font-size: 130%;
+  font-family: 'Poppins', sans-serif;
+  color: #3F2B39; }
+
+.promo-1I {
+  grid-area: promo-1;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #3F2B39; }
+
+.productosMasLlevados .caja1I {
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px; }
+
+/* Animaciones sobre los productos mas llevados */
+.productosMasLlevados .caja1:hover {
+  transform: scale(1.1); }
+
+/*ASIDE*/
+.interesar {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: #EFEAEA;
+  padding: 0.938rem; }
+
+.producto2I {
+  border: 1px solid #d5d0d6;
+  margin-top: 0.625rem;
+  height: 7.61vh; }
+
+/* Animaciones sobre te puede interesar */
+.producto2I:hover {
+  transform: translate(4px, 2px); }
+
+/*VALORACIONES*/
+.valoraciones {
+  color: #3F2B39;
+  font-family: 'Poppins', sans-serif;
+  grid-area: valoraciones;
+  text-align: center;
+  background-color: #fff;
+  padding: 0.938rem; }
+  .valoraciones .valoraciones__caja1-Opinion:hover {
+    transform: scale(1.1); }
+    .valoraciones .valoraciones__caja1-Opinion:hover .valoraciones__caja1-Opinion--opinion1 {
+      color: #3F2B39; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -736,6 +778,31 @@ h1 {
 
 #parada {
   color: #EEB738; }
+
+/*Esto seria section superior o NAV INF*/
+.navInf {
+  text-align: center;
+  background-color: #EEB738; }
+  .navInf .navInf__sectionSupItems {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid #9F0909;
+    border-radius: 40px;
+    padding: 5px 3.75rem;
+    background-color: #C8C3C3;
+    height: 5vh;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-items: center; }
+
+.navInf__sectionSupItems:hover {
+  color: white;
+  background-color: #9F0909; }
 
 /*esto seria el FOOTER*/
 /*Cuadro inferior izq*/

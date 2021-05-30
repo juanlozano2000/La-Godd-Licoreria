@@ -8,6 +8,7 @@
 @import "_contacto";
 @import "_index";
 @import "_otros";
+@import "_index";
 
 
 
@@ -107,7 +108,35 @@ h1{
   color: #EEB738;
 }
 
+/*Esto seria section superior o NAV INF*/
+.navInf{
+  text-align: center;
+  background-color: #EEB738;
 
+  .navInf__sectionSupItems{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    border: 2px solid #9F0909;
+    border-radius: 40px;
+    padding: 5px 3.75rem;
+    background-color: #C8C3C3;
+    height: 5vh;
+    width: 180px;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+}
+  //animaciones
+  .navInf__sectionSupItems:hover{
+    color: rgb(255, 255, 255);
+    background-color: #9F0909;
+  }
  
 /*esto seria el FOOTER*/
 /*Cuadro inferior izq*/
