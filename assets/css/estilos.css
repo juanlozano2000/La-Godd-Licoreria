@@ -502,13 +502,11 @@
   background-color: #EFEAEA; }
 
 .promosIndex {
-  width: 2fr;
-  border: solid 1px blue; }
+  width: 2fr; }
 
 /*PRODUCTOS MAS LLEVADOS*/
 .masLlevados {
   color: #3F2B39;
-  border: solid 1px red;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: #EFEAEA;
@@ -694,13 +692,11 @@
       margin: 2%; } }
 
 .promosIndex {
-  width: 2fr;
-  border: solid 1px blue; }
+  width: 2fr; }
 
 /*PRODUCTOS MAS LLEVADOS*/
 .masLlevados {
   color: #3F2B39;
-  border: solid 1px red;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: #EFEAEA;

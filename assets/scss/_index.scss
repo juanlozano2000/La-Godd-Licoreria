@@ -9,14 +9,12 @@ $border-rojo: solid 1px red;
 
 .promosIndex{
   width: 2fr; //si pongo auto tiene el tamaño como antes, si pongo 100% se achica, puse 2fr y me puso como antes...
-  border: solid 1px blue;
 }
   
 
 /*PRODUCTOS MAS LLEVADOS*/
 .masLlevados{
 color: $bcg-violeta;
-border: $border-rojo;
 font-family: 'Poppins', sans-serif;
 text-align: center;
 background-color: #EFEAEA;
