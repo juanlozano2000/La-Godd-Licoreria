@@ -822,6 +822,14 @@
       color: #3F2B39; }
 
 * {
+  background-color: #EFEAEA;
+  margin: 0;
+  padding: 0; }
+
+.header404 {
+  display: flex; }
+
+* {
   margin: 0;
   padding: 0; }
 
