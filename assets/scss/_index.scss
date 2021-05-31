@@ -57,6 +57,10 @@ padding: 0.938rem 1.25rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
+        h3{
+            margin-top: 2%;
+        }
     }
 
     .productosMasLlevados{
@@ -67,7 +71,6 @@ padding: 0.938rem 1.25rem;
             display: flex;
             justify-content: center;
         }
-
         .caja1{
             width: 70%;
             height: auto;
@@ -91,6 +94,10 @@ padding: 0.938rem 1.25rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
+        h3{
+            margin-top: 5%;
+        }
     }
 
     .productosMasLlevados{
@@ -101,14 +108,11 @@ padding: 0.938rem 1.25rem;
             display: flex;
             justify-content: center;
         }
-
         .caja1{
             width: 85%;
             height: auto;
             margin: 5%;
         }
-
-
     }
 
     .productosMasLlevados .caja1:hover{
@@ -125,6 +129,10 @@ padding: 0.938rem 1.25rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
+        h3{
+            margin-top: 1.5%;
+        }
     }
 
     .productosMasLlevados{
