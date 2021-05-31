@@ -822,12 +822,30 @@
       color: #3F2B39; }
 
 * {
-  background-color: #EFEAEA;
   margin: 0;
   padding: 0; }
 
 .header404 {
-  display: flex; }
+  background-color: #3F2B39;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.header405 {
+  background-color: #EEB738;
+  height: 50px; }
+
+.logo__h {
+  text-align: center; }
+
+.sub_h2 {
+  color: cadetblue;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 100%; }
 
 * {
   margin: 0;
