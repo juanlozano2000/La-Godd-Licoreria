@@ -593,7 +593,8 @@
       margin-top: 1.5%; }
   .productosMasLlevados {
     padding: 2%;
-    max-width: 100%; }
+    max-width: 100%;
+    margin-top: -2%; }
     .productosMasLlevados .index-centrado {
       display: flex;
       justify-content: center; }
@@ -792,7 +793,8 @@
       margin-top: 1.5%; }
   .productosMasLlevados {
     padding: 2%;
-    max-width: 100%; }
+    max-width: 100%;
+    margin-top: -2%; }
     .productosMasLlevados .index-centrado {
       display: flex;
       justify-content: center; }
