@@ -503,6 +503,10 @@
 .formulario {
   background-color: #EFEAEA; }
 
+.carrusel {
+  width: 100%;
+  background-color: #EFEAEA; }
+
 .promosIndex {
   width: 2fr; }
 
@@ -697,6 +701,10 @@
       width: 90%;
       height: auto;
       margin: 2%; } }
+
+.carrusel {
+  width: 100%;
+  background-color: #EFEAEA; }
 
 .promosIndex {
   width: 2fr; }
