@@ -866,19 +866,23 @@ body {
 .e404 {
   font-family: 'Poppins', sans-serif;
   font-weight: 150;
-  letter-spacing: 1px;
+  color: #3F2B39;
+  letter-spacing: 10px;
   font-size: 1200%;
   position: relative;
   border: solid 1px red; }
+
+.cero {
+  color: white; }
 
 .beer {
   position: absolute;
   background-color: #EFEAEA;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  top: 0;
-  left: 0;
+  height: 130px;
+  width: 130px;
+  top: 90px;
+  left: 120px;
   z-index: 1; }
 
 * {
