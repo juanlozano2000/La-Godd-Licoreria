@@ -863,6 +863,24 @@ body {
   letter-spacing: 1px;
   font-size: 100%; }
 
+.e404 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 150;
+  letter-spacing: 1px;
+  font-size: 1200%;
+  position: relative;
+  border: solid 1px red; }
+
+.beer {
+  position: absolute;
+  background-color: #EFEAEA;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
 * {
   margin: 0;
   padding: 0; }

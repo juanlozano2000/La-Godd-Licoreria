@@ -40,3 +40,25 @@ body{
   font-size: 100%;
 
 }
+
+.e404{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 150;
+    letter-spacing: 1px;
+    font-size: 1200%;
+    position: relative;
+    border: $border-rojo;
+
+    
+}
+
+.beer{
+    position: absolute;
+    background-color: $bcg-grisFondo;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
