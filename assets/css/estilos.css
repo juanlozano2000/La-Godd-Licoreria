@@ -626,7 +626,8 @@
 .producto2I {
   border: 1px solid #d5d0d6;
   margin: 1%;
-  height: 15%; }
+  height: 15%;
+  user-select: none; }
 
 /* Animaciones sobre te puede interesar */
 .producto2I:hover {
@@ -838,7 +839,8 @@
 .producto2I {
   border: 1px solid #d5d0d6;
   margin: 1%;
-  height: 15%; }
+  height: 15%;
+  user-select: none; }
 
 /* Animaciones sobre te puede interesar */
 .producto2I:hover {
