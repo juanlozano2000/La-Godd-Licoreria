@@ -1,2 +1,2 @@
-# La-Godd-Licoreria para todo la gente.
+# La-Godd-Licoreria para toda la gente.
 Pongo el readme para el desafio complementario
