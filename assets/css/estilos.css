@@ -504,6 +504,10 @@
 .formulario {
   background-color: #EFEAEA; }
 
+@media screen and (min-width: 757px) {
+  .apellidoI {
+    margin-bottom: 2px; } }
+
 .carrusel {
   width: 100%;
   background-color: black; }
@@ -645,6 +649,9 @@
     transform: scale(1.1); }
     .valoraciones .valoraciones__caja1-Opinion:hover .valoraciones__caja1-Opinion--opinion1 {
       color: #3F2B39; }
+
+body {
+  overflow-x: hidden; }
 
 .otros-conteiner {
   color: #3F2B39;
@@ -858,6 +865,9 @@
     transform: scale(1.1); }
     .valoraciones .valoraciones__caja1-Opinion:hover .valoraciones__caja1-Opinion--opinion1 {
       color: #3F2B39; }
+
+body {
+  overflow-x: hidden; }
 
 * {
   margin: 0;

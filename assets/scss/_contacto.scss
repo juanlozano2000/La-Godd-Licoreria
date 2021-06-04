@@ -3,3 +3,11 @@ $bcg-grisFondo: #EFEAEA;
 .formulario{
     background-color: $bcg-grisFondo;
 }
+
+
+
+@media screen and (min-width: 757px) {
+    .apellidoI{
+        margin-bottom: 2px;
+    }
+}
