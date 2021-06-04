@@ -609,12 +609,20 @@
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: #EFEAEA;
-  padding: 0.938rem; }
+  padding: 0.938rem;
+  height: auto; }
+  .interesar aside {
+    height: 100%; }
+  .interesar .producto2IContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%; }
 
 .producto2I {
   border: 1px solid #d5d0d6;
-  margin-top: 0.625rem;
-  height: 7.61vh; }
+  margin: 1%;
+  height: 15%; }
 
 /* Animaciones sobre te puede interesar */
 .producto2I:hover {
@@ -809,12 +817,20 @@
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: #EFEAEA;
-  padding: 0.938rem; }
+  padding: 0.938rem;
+  height: auto; }
+  .interesar aside {
+    height: 100%; }
+  .interesar .producto2IContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%; }
 
 .producto2I {
   border: 1px solid #d5d0d6;
-  margin-top: 0.625rem;
-  height: 7.61vh; }
+  margin: 1%;
+  height: 15%; }
 
 /* Animaciones sobre te puede interesar */
 .producto2I:hover {
