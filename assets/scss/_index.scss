@@ -89,6 +89,10 @@ padding: 0.938rem 1.25rem;
         background-color: $bcg-gris_hover;
     }
 
+    // Aside
+    .interesar{
+        height: 42vh;
+    }
 }
 
 /*MEDIA para tablet INDEX*/
@@ -122,6 +126,11 @@ padding: 0.938rem 1.25rem;
     .productosMasLlevados .caja1:hover{
         transform: none;
         background-color: $bcg-gris_hover;
+    }
+
+    // Aside
+    .interesar{
+        height: 42vh;
     }
 
 }
@@ -165,7 +174,6 @@ padding: 0.938rem 1.25rem;
     text-align: center;
     background-color: $bcg-grisFondo;
     padding: 0.938rem;
-    height: auto;
 
     aside{
         height: 100%;

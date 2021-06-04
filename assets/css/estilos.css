@@ -557,7 +557,9 @@
       margin: 2% 0%; }
   .productosMasLlevados .caja1:hover {
     transform: none;
-    background-color: #d8d8d8; } }
+    background-color: #d8d8d8; }
+  .interesar {
+    height: 42vh; } }
 
 /*MEDIA para tablet INDEX*/
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -580,7 +582,9 @@
       margin: 5%; }
   .productosMasLlevados .caja1:hover {
     transform: none;
-    background-color: #d8d8d8; } }
+    background-color: #d8d8d8; }
+  .interesar {
+    height: 42vh; } }
 
 /*MEDIA para PC INDEX*/
 @media screen and (min-width: 990px) {
@@ -609,8 +613,7 @@
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: #EFEAEA;
-  padding: 0.938rem;
-  height: auto; }
+  padding: 0.938rem; }
   .interesar aside {
     height: 100%; }
   .interesar .producto2IContainer {
@@ -765,7 +768,9 @@
       margin: 2% 0%; }
   .productosMasLlevados .caja1:hover {
     transform: none;
-    background-color: #d8d8d8; } }
+    background-color: #d8d8d8; }
+  .interesar {
+    height: 42vh; } }
 
 /*MEDIA para tablet INDEX*/
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -788,7 +793,9 @@
       margin: 5%; }
   .productosMasLlevados .caja1:hover {
     transform: none;
-    background-color: #d8d8d8; } }
+    background-color: #d8d8d8; }
+  .interesar {
+    height: 42vh; } }
 
 /*MEDIA para PC INDEX*/
 @media screen and (min-width: 990px) {
@@ -817,8 +824,7 @@
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: #EFEAEA;
-  padding: 0.938rem;
-  height: auto; }
+  padding: 0.938rem; }
   .interesar aside {
     height: 100%; }
   .interesar .producto2IContainer {
