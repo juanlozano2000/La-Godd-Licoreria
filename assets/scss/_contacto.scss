@@ -6,8 +6,8 @@ $bcg-grisFondo: #EFEAEA;
 
 
 
-@media screen and (min-width: 757px) {
-    .apellidoI{
-        margin-bottom: 2px;
+@media screen and (max-width: 757px) {
+    .apellido{
+        margin-top: 3px;
     }
 }
