@@ -1,14 +1,14 @@
 {
-  "name": "desafio-clase-13",
+  "name": "la-godd-licoreria",
   "version": "1.0.0",
-  "description": "",
+  "description": "Almacen de bebidas y comidas con el fin de hacer tu previa a la fiesta lo mas divertida, completa y deliciosa. Al trabajar las 24 horas pueden llamarnos cuando sea y se lo enviamos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss assets/scss/estilos.scss assets/css/estilos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"" 
   },
-  "author": "",
+  "author": "Juan Ignacio Lozano",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.0",
