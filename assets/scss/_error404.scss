@@ -13,6 +13,11 @@ $border-rojo: solid 1px red;
 body{
     margin: 0;
     padding: 0;
+    min-width: 400px;
+}
+
+.gris{
+    background-color: $bcg-grisFondo;
 }
 
 .header404{
@@ -46,23 +51,67 @@ body{
     font-weight: 150;
     color: $bcg-violeta;
     letter-spacing: 10px;
-    font-size: 1200%;
-    position: relative;
-    border: $border-rojo;
+    font-size: 10rem;
+    width: 100%;
+
+    
+    display: flex;
+    justify-content: center;
 }
 
-// A tener en cuenta
-.cero{
-    color: white;
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    letter-spacing: 5px;
+    font-size: 1.88rem;
+    color: $bcg-violeta;
+    font-weight: 100;
+
 }
 
-.beer{
-    position: absolute;
-    background-color: $bcg-grisFondo;
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
-    top: 90px;
-    left: 120px;
-    z-index: 1;
+.oops{
+    color: $bcg-violeta;
+    font-size: 50px;
+}
+
+.texto-oops{
+    color: $bcg-violeta;
+    font-size: 20px;
+}
+
+.oops-centrado{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/*Media para celular 404*/
+@media screen and (max-width: 767px){
+    .e404{
+        font-size: 7rem;
+    }
+    .error{
+        font-size: 1.3rem;
+    }
+    .oops{
+        font-size: 40px;
+        padding: 2px;
+    }
+}
+
+/*Media para tablet 404*/
+@media screen and (min-width: 768px) and (max-width: 990px){
+
+}
+
+/*Media para PC 404*/
+@media screen and (min-width: 990px){
+
 }
