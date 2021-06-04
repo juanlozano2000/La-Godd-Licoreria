@@ -1069,9 +1069,10 @@ h1 {
   justify-content: center;
   align-content: center;
   align-items: center; }
+  .copyright footer {
+    width: 80%; }
   .copyright .copyright__parrafoFooter {
-    width: 36.60vw;
-    height: 15.22vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -1100,6 +1101,7 @@ h1 {
   height: 25px; }
 
 /*MEDIA QUERIES*/
+/*Media para celular*/
 @media screen and (max-width: 767px) {
   /*BOTONES ingresar y registrate*/
   .botones {
@@ -1132,14 +1134,12 @@ h1 {
     width: 40vw;
     margin: 5px;
     padding: 5px; }
-  /*Cuadro Medio*/
   .copyright {
     line-height: 1.20rem;
-    font-size: 0.6rem;
-    width: 100%;
-    height: auto; }
+    font-size: 0.6rem; }
+    .copyright footer {
+      width: 95%; }
     .copyright .copyright__parrafoFooter {
-      width: 31.25rem;
       height: auto; } }
 
 /*Media queries para tablet*/

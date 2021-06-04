@@ -203,9 +203,12 @@ h1{
   align-content: center;
   align-items: center;
 
+  footer{
+    width: 80%;
+  }
+
   .copyright__parrafoFooter{
-    width: 36.60vw;
-    height: 15.22vh;
+    height: auto;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -245,6 +248,7 @@ h1{
   
 
 /*MEDIA QUERIES*/
+/*Media para celular*/
 @media screen and (max-width: 767px){
   /*BOTONES ingresar y registrate*/
   .botones{
@@ -283,17 +287,17 @@ h1{
       padding: 5px;
   }  
   
-
-  /*Cuadro Medio*/
+  // FOOTER celular
   .copyright{
     line-height: 1.20rem;
     font-size: 0.6rem;
-    width: 100%;
-    height: auto;
 
   
+    footer{
+      width: 95%;
+    }
+  
     .copyright__parrafoFooter{
-      width: 31.25rem;
       height: auto;
     }
   }
@@ -328,6 +332,9 @@ h1{
       padding: 5px;
   }  
 }
+
+
+
 
   .fotitoCarru{
     height: 60.88vh;
