@@ -1233,3 +1233,6 @@ h1 {
 
 #colorWhite:hover {
   color: #EEB738; }
+
+.link-inicio {
+  text-decoration: none; }
