@@ -446,6 +446,22 @@
 .sin_alcohol-cajas .sin_alcohol-cajas__box1:hover {
   transform: scale(1.1); }
 
+.sin_alcohol-centrado {
+  position: relative;
+  z-index: 0; }
+
+.sin_alcohol-cajas__box1::after {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  content: '';
+  width: 100%;
+  height: 10px;
+  background-color: #3F2B39;
+  border-radius: 30px;
+  filter: blur(10px);
+  z-index: -1; }
+
 /*MEDIA para celular SIN ALCOHOL*/
 @media screen and (max-width: 767px) {
   .sin_alcohol-conteiner {
