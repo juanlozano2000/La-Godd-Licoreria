@@ -26,6 +26,11 @@ $border-rojo: solid 1px red;
     
     .vodkas-cajas__box1{
         background-color: #fff;
+        border-radius: 30px;
+
+        .img1{
+            border-radius: 30px;
+        }
 
         .vodkas-cajas__box1--producto1Vod{
             font-weight: bold;
@@ -44,6 +49,23 @@ $border-rojo: solid 1px red;
 transform: scale(1.1);
 }
 
+// SOMBRA A LAS CAJAS
+.vodkas-centrado{
+    position: relative;
+    z-index: 0;
+}
+.vodkas-cajas__box1::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: $bcg-violeta;
+    border-radius: 30px;
+    filter: blur(10px);
+    z-index: -1;
+}
 
 /*MEDIA para celular VODKAS*/
 @media screen and (max-width: 767px){

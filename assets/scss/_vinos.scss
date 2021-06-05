@@ -26,6 +26,11 @@ $border-rojo: solid 1px red;
 .vinos-cajas{
     .vinos-cajas__box1{
         background-color: #fff;
+        border-radius: 30px;
+
+        .img1{
+            border-radius: 30px;
+        }
 
         .vinos-cajas__box1--producto1V{
             font-weight: bold;
@@ -43,6 +48,25 @@ $border-rojo: solid 1px red;
 .vinos-cajas .vinos-cajas__box1:hover{
 transform: scale(1.1);
 }
+
+// SOMBRA A LAS CAJAS
+.vinos-centrado{
+    position: relative;
+    z-index: 0;
+}
+.vinos-cajas__box1::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-color: #3F2B39;
+    border-radius: 30px;
+    filter: blur(10px);
+    z-index: -1;
+}
+
 
 
 

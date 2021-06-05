@@ -24,6 +24,11 @@ $border-rojo: solid 1px red;
   .ofertas-cajas{
     .ofertas-cajas__box1{
         background-color: #fff;
+        border-radius: 30px;
+
+        .img1{
+            border-radius: 30px;
+        }
 
         .producto1O{
             font-weight: bold;
@@ -47,6 +52,25 @@ $border-rojo: solid 1px red;
 .ofertas-cajas .ofertas-cajas__box1:hover{
 transform: scale(1.1);
 }
+
+// SOMBRA A LAS CAJAS
+.ofertas-centrado{
+    position: relative;
+    z-index: 0;
+}
+.ofertas-cajas__box1::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-color: #3F2B39;
+    border-radius: 30px;
+    filter: blur(10px);
+    z-index: -1;
+}
+
 
 
 

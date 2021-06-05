@@ -32,6 +32,11 @@ padding: 0.938rem 1.25rem;
     /*Products mas llevados caracteristicas*/
     .caja1{
     background-color: #fff;
+    border-radius: 30px;
+
+    .img1{
+        border-radius: 30px;
+    }
     }
     .producto1I{
     font-weight: bold;
@@ -46,10 +51,28 @@ padding: 0.938rem 1.25rem;
 }
 
 
-  /* Animaciones sobre los productos mas llevados */
-  .productosMasLlevados .caja1:hover{
-    transform: scale(1.1);
-  }
+/* Animaciones sobre los productos mas llevados */
+.productosMasLlevados .caja1:hover{
+transform: scale(1.1);
+}
+
+// SOMBRA A LAS CAJAS
+.index-centrado{
+    position: relative;
+    z-index: 0;
+}
+.caja1::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: $bcg-violeta;
+    border-radius: 30px;
+    filter: blur(10px);
+    z-index: -1;
+}
 
 
 
