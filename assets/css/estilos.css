@@ -432,7 +432,10 @@
     justify-content: flex-start; }
 
 .sin_alcohol-cajas .sin_alcohol-cajas__box1 {
-  background-color: #fff; }
+  background-color: #fff;
+  border-radius: 30px; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box1 .img1 {
+    border-radius: 30px; }
   .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--producto1Sin {
     font-weight: bold;
     font-size: 130%; }

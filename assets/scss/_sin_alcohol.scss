@@ -25,6 +25,12 @@ $border-rojo: solid 1px red;
 .sin_alcohol-cajas{
     .sin_alcohol-cajas__box1{
         background-color: #fff;
+        border-radius: 30px;
+
+        .img1{
+            border-radius: 30px;
+        }
+        
 
         .sin_alcohol-cajas__box1--producto1Sin{
             font-weight: bold;
