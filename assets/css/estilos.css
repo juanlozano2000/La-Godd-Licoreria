@@ -764,6 +764,7 @@
   border: 1px solid #d5d0d6;
   margin: 1%;
   height: 15%;
+  padding: 4px;
   user-select: none; }
 
 /* Animaciones sobre te puede interesar */
@@ -1018,6 +1019,7 @@ body {
   border: 1px solid #d5d0d6;
   margin: 1%;
   height: 15%;
+  padding: 4px;
   user-select: none; }
 
 /* Animaciones sobre te puede interesar */
@@ -1216,6 +1218,10 @@ h1 {
     justify-items: center; }
 
 .navInf__sectionSupItems:hover {
+  color: white;
+  background-color: #9F0909; }
+
+#colorBlanco:hover {
   color: white;
   background-color: #9F0909; }
 
