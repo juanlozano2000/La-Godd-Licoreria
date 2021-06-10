@@ -782,11 +782,10 @@
   grid-area: valoraciones;
   text-align: center;
   background-color: #fff;
-  padding: 0.938rem; }
-  .valoraciones .valoraciones__caja1-Opinion:hover {
-    transform: scale(1.1); }
-    .valoraciones .valoraciones__caja1-Opinion:hover .valoraciones__caja1-Opinion--opinion1 {
-      color: #3F2B39; }
+  padding: 1rem; }
+  .valoraciones .valoraciones__caja1-Opinion--opinion1 {
+    color: #3F2B39;
+    padding: 5px; }
 
 body {
   overflow-x: hidden; }
@@ -1041,11 +1040,10 @@ body {
   grid-area: valoraciones;
   text-align: center;
   background-color: #fff;
-  padding: 0.938rem; }
-  .valoraciones .valoraciones__caja1-Opinion:hover {
-    transform: scale(1.1); }
-    .valoraciones .valoraciones__caja1-Opinion:hover .valoraciones__caja1-Opinion--opinion1 {
-      color: #3F2B39; }
+  padding: 1rem; }
+  .valoraciones .valoraciones__caja1-Opinion--opinion1 {
+    color: #3F2B39;
+    padding: 5px; }
 
 body {
   overflow-x: hidden; }

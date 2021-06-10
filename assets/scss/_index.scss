@@ -239,15 +239,12 @@ transform: scale(1.1);
   grid-area: valoraciones;
   text-align: center;
   background-color: #fff;
-  padding: 0.938rem;
+  padding: 1rem;
 
-  .valoraciones__caja1-Opinion:hover{
-      transform: scale(1.1);
-
-      .valoraciones__caja1-Opinion--opinion1{
-          color: $bcg-violeta;
-      }
-  }
+    .valoraciones__caja1-Opinion--opinion1{
+    color: $bcg-violeta;
+    padding: 5px;
+    }
 }
 
 body{
