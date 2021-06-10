@@ -1161,18 +1161,17 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-#ingresar {
-  /*boton ingresar*/
-  border-radius: 20px;
-  width: 7.32vw;
-  font-family: 'Poppins', sans-serif; }
-
-#registrate {
-  /*boton registrate*/
-  border-radius: 20px;
-  width: 7.32vw;
-  font-family: 'Poppins', sans-serif; }
+  .botones ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0; }
+  .botones .botones__headerSup {
+    /*boton ingresar y registrarse*/
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif; }
 
 /*MENU*/
 .menu {
