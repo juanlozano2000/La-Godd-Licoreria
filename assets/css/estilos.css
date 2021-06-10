@@ -758,13 +758,18 @@
     flex-direction: column;
     justify-content: space-around;
     height: 90%; }
-
-.producto2I {
-  border: 1px solid #d5d0d6;
-  margin: 1%;
-  height: 15%;
-  padding: 4px;
-  user-select: none; }
+  .interesar .producto2I {
+    border: 1px solid #d5d0d6;
+    margin: 1%;
+    height: 15%;
+    padding: 5px;
+    border-radius: 15px;
+    user-select: none;
+    text-decoration: none;
+    color: #3F2B39;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 /* Animaciones sobre te puede interesar */
 .producto2I:hover {
@@ -1012,13 +1017,18 @@ body {
     flex-direction: column;
     justify-content: space-around;
     height: 90%; }
-
-.producto2I {
-  border: 1px solid #d5d0d6;
-  margin: 1%;
-  height: 15%;
-  padding: 4px;
-  user-select: none; }
+  .interesar .producto2I {
+    border: 1px solid #d5d0d6;
+    margin: 1%;
+    height: 15%;
+    padding: 5px;
+    border-radius: 15px;
+    user-select: none;
+    text-decoration: none;
+    color: #3F2B39;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 /* Animaciones sobre te puede interesar */
 .producto2I:hover {

@@ -207,14 +207,23 @@ transform: scale(1.1);
         justify-content: space-around;
         height: 90%;
     }
+
+    // Productos del aside 
+    .producto2I{
+        border: 1px solid $bcg-bordeAside;
+        margin: 1%;
+        height: 15%;
+        padding: 5px;
+        border-radius: 15px;
+        user-select: none;
+        text-decoration: none;
+        color: $bcg-violeta;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
-.producto2I{
-    border: 1px solid $bcg-bordeAside;
-    margin: 1%;
-    height: 15%;
-    padding: 4px;
-    user-select: none;
-}
+
 
 /* Animaciones sobre te puede interesar */
 .producto2I:hover{
