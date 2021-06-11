@@ -6,8 +6,12 @@ $bcg-amarillo: #EEB738;
 // Borde para probar
 $border-rojo: solid 1px red;
 
-.carrusel{
-    background-color: black;
+.bcgGris{
+    background-color:$bcg-grisFondo;
+}
+
+.bcgWhite{
+    background-color: #fff;
 }
 
 .promosIndex{
@@ -25,7 +29,6 @@ background-color: #EFEAEA;
 
 
 .productosMasLlevados{
-width: 100%;
 padding: 0.938rem 1.25rem;
 
     /*Products mas llevados caracteristicas*/
@@ -73,11 +76,22 @@ transform: scale(1.1);
     z-index: -1;
 }
 
+.carruselCell{
+    display: none;
+}
+
 
 
 
 /*MEDIA para celular INDEX*/
 @media screen and (max-width: 767px){
+    .carruselCell{
+        display: initial;
+    }
+    .carruselPc{
+        display: none;
+    }
+
     .masLlevados{
         max-width: 100%;
         display: flex;
@@ -119,6 +133,13 @@ transform: scale(1.1);
 
 /*MEDIA para tablet INDEX*/
 @media screen and (min-width: 768px) and (max-width: 990px){
+    .carruselCell{
+        display: initial;
+    }
+    .carruselPc{
+        display: none;
+    }
+
     .masLlevados{
         max-width: 100%;
         display: flex;
