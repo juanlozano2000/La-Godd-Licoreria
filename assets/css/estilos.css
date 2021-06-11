@@ -146,20 +146,22 @@
     display: flex;
     justify-content: flex-start; }
 
-.ofertas-cajas .ofertas-cajas__box1 {
-  background-color: #fff;
-  border-radius: 30px; }
-  .ofertas-cajas .ofertas-cajas__box1 .img1 {
+.ofertas-cajas {
+  margin-top: 1.5%; }
+  .ofertas-cajas .ofertas-cajas__box1 {
+    background-color: #fff;
     border-radius: 30px; }
-  .ofertas-cajas .ofertas-cajas__box1 .producto1O {
-    font-weight: bold;
-    font-size: 130%; }
-    .ofertas-cajas .ofertas-cajas__box1 .producto1O .offTachado {
-      text-decoration: line-through; }
-    .ofertas-cajas .ofertas-cajas__box1 .producto1O .offColor {
-      color: #EEB738; }
-  .ofertas-cajas .ofertas-cajas__box1 .oferta-1 {
-    color: #3F2B39; }
+    .ofertas-cajas .ofertas-cajas__box1 .img1 {
+      border-radius: 30px; }
+    .ofertas-cajas .ofertas-cajas__box1 .producto1O {
+      font-weight: bold;
+      font-size: 130%; }
+      .ofertas-cajas .ofertas-cajas__box1 .producto1O .offTachado {
+        text-decoration: line-through; }
+      .ofertas-cajas .ofertas-cajas__box1 .producto1O .offColor {
+        color: #EEB738; }
+    .ofertas-cajas .ofertas-cajas__box1 .oferta-1 {
+      color: #3F2B39; }
 
 /* animaciones */
 .ofertas-cajas .ofertas-cajas__box1:hover {
@@ -254,16 +256,18 @@
     display: flex;
     justify-content: flex-start; }
 
-.cervezas-cajas .cervezas-cajas__box1 {
-  background-color: #fff;
-  border-radius: 30px; }
-  .cervezas-cajas .cervezas-cajas__box1 .img1 {
+.cervezas-cajas {
+  margin-top: 1.5%; }
+  .cervezas-cajas .cervezas-cajas__box1 {
+    background-color: #fff;
     border-radius: 30px; }
-  .cervezas-cajas .cervezas-cajas__box1 .cervezas-cajas__box1--producto1C {
-    font-weight: bold;
-    font-size: 130%; }
-  .cervezas-cajas .cervezas-cajas__box1 .cervezas-cajas__box1--promo-1 {
-    color: #3F2B39; }
+    .cervezas-cajas .cervezas-cajas__box1 .img1 {
+      border-radius: 30px; }
+    .cervezas-cajas .cervezas-cajas__box1 .cervezas-cajas__box1--producto1C {
+      font-weight: bold;
+      font-size: 130%; }
+    .cervezas-cajas .cervezas-cajas__box1 .cervezas-cajas__box1--promo-1 {
+      color: #3F2B39; }
 
 /* ANIMACIONES SOBRE CERVEZA */
 .cervezas-cajas .cervezas-cajas__box1:hover {
@@ -345,16 +349,18 @@
     display: flex;
     justify-content: flex-start; }
 
-.vinos-cajas .vinos-cajas__box1 {
-  background-color: #fff;
-  border-radius: 30px; }
-  .vinos-cajas .vinos-cajas__box1 .img1 {
+.vinos-cajas {
+  margin-top: 1.5%; }
+  .vinos-cajas .vinos-cajas__box1 {
+    background-color: #fff;
     border-radius: 30px; }
-  .vinos-cajas .vinos-cajas__box1 .vinos-cajas__box1--producto1V {
-    font-weight: bold;
-    font-size: 130%; }
-  .vinos-cajas .vinos-cajas__box1 .vinos-cajas__box1--promo-1 {
-    color: #3F2B39; }
+    .vinos-cajas .vinos-cajas__box1 .img1 {
+      border-radius: 30px; }
+    .vinos-cajas .vinos-cajas__box1 .vinos-cajas__box1--producto1V {
+      font-weight: bold;
+      font-size: 130%; }
+    .vinos-cajas .vinos-cajas__box1 .vinos-cajas__box1--promo-1 {
+      color: #3F2B39; }
 
 /* ANIMACIONES sobre VINOS */
 .vinos-cajas .vinos-cajas__box1:hover {
@@ -436,16 +442,18 @@
     display: flex;
     justify-content: flex-start; }
 
-.vodkas-cajas .vodkas-cajas__box1 {
-  background-color: #fff;
-  border-radius: 30px; }
-  .vodkas-cajas .vodkas-cajas__box1 .img1 {
+.vodkas-cajas {
+  margin-top: 1.5%; }
+  .vodkas-cajas .vodkas-cajas__box1 {
+    background-color: #fff;
     border-radius: 30px; }
-  .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--producto1Vod {
-    font-weight: bold;
-    font-size: 130%; }
-  .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--promo-1 {
-    color: #3F2B39; }
+    .vodkas-cajas .vodkas-cajas__box1 .img1 {
+      border-radius: 30px; }
+    .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--producto1Vod {
+      font-weight: bold;
+      font-size: 130%; }
+    .vodkas-cajas .vodkas-cajas__box1 .vodkas-cajas__box1--promo-1 {
+      color: #3F2B39; }
 
 /* ANIMACIONES sobre Vodkas */
 .vodkas-cajas .vodkas-cajas__box1:hover {
@@ -526,16 +534,18 @@
     display: flex;
     justify-content: flex-start; }
 
-.sin_alcohol-cajas .sin_alcohol-cajas__box1 {
-  background-color: #fff;
-  border-radius: 30px; }
-  .sin_alcohol-cajas .sin_alcohol-cajas__box1 .img1 {
+.sin_alcohol-cajas {
+  margin-top: 1.5%; }
+  .sin_alcohol-cajas .sin_alcohol-cajas__box1 {
+    background-color: #fff;
     border-radius: 30px; }
-  .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--producto1Sin {
-    font-weight: bold;
-    font-size: 130%; }
-  .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--promo-1 {
-    color: #3F2B39; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box1 .img1 {
+      border-radius: 30px; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--producto1Sin {
+      font-weight: bold;
+      font-size: 130%; }
+    .sin_alcohol-cajas .sin_alcohol-cajas__box1 .sin_alcohol-cajas__box1--promo-1 {
+      color: #3F2B39; }
 
 /* ANIMACIONES sobre SIN ALCOHOL */
 .sin_alcohol-cajas .sin_alcohol-cajas__box1:hover {
@@ -812,16 +822,18 @@ body {
     display: flex;
     justify-content: flex-start; }
 
-.otros-cajas .otros-cajas__box1 {
-  background-color: #fff;
-  border-radius: 30px; }
-  .otros-cajas .otros-cajas__box1 .img1 {
+.otros-cajas {
+  margin-top: 1.5%; }
+  .otros-cajas .otros-cajas__box1 {
+    background-color: #fff;
     border-radius: 30px; }
-  .otros-cajas .otros-cajas__box1 .otros-cajas__box1--producto1O {
-    font-weight: bold;
-    font-size: 130%; }
-  .otros-cajas .otros-cajas__box1 .otros-cajas__box1--promo-1 {
-    color: #3F2B39; }
+    .otros-cajas .otros-cajas__box1 .img1 {
+      border-radius: 30px; }
+    .otros-cajas .otros-cajas__box1 .otros-cajas__box1--producto1O {
+      font-weight: bold;
+      font-size: 130%; }
+    .otros-cajas .otros-cajas__box1 .otros-cajas__box1--promo-1 {
+      color: #3F2B39; }
 
 /* ANIMACIONES sobre Vodkas */
 .otros-cajas .otros-cajas__box1:hover {
