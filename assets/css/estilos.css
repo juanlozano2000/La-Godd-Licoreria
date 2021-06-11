@@ -685,13 +685,8 @@
   filter: blur(10px);
   z-index: -1; }
 
-.carruselCell {
-  display: none; }
-
 /*MEDIA para celular INDEX*/
 @media screen and (max-width: 767px) {
-  .carruselCell {
-    display: initial; }
   .carruselPc {
     display: none; }
   .masLlevados {
@@ -719,8 +714,6 @@
 
 /*MEDIA para tablet INDEX*/
 @media screen and (min-width: 768px) and (max-width: 990px) {
-  .carruselCell {
-    display: initial; }
   .carruselPc {
     display: none; }
   .masLlevados {
@@ -748,6 +741,8 @@
 
 /*MEDIA para PC INDEX*/
 @media screen and (min-width: 990px) {
+  .carruselCell {
+    display: none; }
   .masLlevados {
     max-width: 100%;
     display: flex;
@@ -958,13 +953,8 @@ body {
   filter: blur(10px);
   z-index: -1; }
 
-.carruselCell {
-  display: none; }
-
 /*MEDIA para celular INDEX*/
 @media screen and (max-width: 767px) {
-  .carruselCell {
-    display: initial; }
   .carruselPc {
     display: none; }
   .masLlevados {
@@ -992,8 +982,6 @@ body {
 
 /*MEDIA para tablet INDEX*/
 @media screen and (min-width: 768px) and (max-width: 990px) {
-  .carruselCell {
-    display: initial; }
   .carruselPc {
     display: none; }
   .masLlevados {
@@ -1021,6 +1009,8 @@ body {
 
 /*MEDIA para PC INDEX*/
 @media screen and (min-width: 990px) {
+  .carruselCell {
+    display: none; }
   .masLlevados {
     max-width: 100%;
     display: flex;
