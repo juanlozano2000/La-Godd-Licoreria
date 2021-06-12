@@ -1161,10 +1161,17 @@ body {
   padding: 0; }
 
 h1 {
-  color: cadetblue;
+  color: #EEB738;
   font-style: oblique;
   font-family: 'Poppins', sans-serif;
   display: inline; }
+
+.sub_h2 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 100%; }
 
 /*esto seria el HEADER*/
 .logo {
@@ -1429,13 +1436,6 @@ h1 {
 .violeta:hover {
   background-color: #5c3e53;
   color: #fff; }
-
-.sub_h2 {
-  color: cadetblue;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  font-size: 100%; }
 
 .barraSuperior:hover {
   color: #EEB738; }

@@ -28,10 +28,18 @@ $border-rojo: solid 1px red;
   }
   
 h1{
-  color: cadetblue;
+  color: $bcg-amarillo;
   font-style:oblique;
   font-family:'Poppins', sans-serif;
   display: inline;
+}
+
+.sub_h2{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 100%;
 }
 
 /*esto seria el HEADER*/
@@ -359,16 +367,6 @@ h1{
     background-color: #5c3e53;
     color: #fff;
   }
-
-  
-.sub_h2{
-  color: cadetblue;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  font-size: 100%;
-}
-
 
 .barraSuperior:hover{
   color:$bcg-amarillo;
