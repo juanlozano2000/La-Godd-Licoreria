@@ -1160,6 +1160,7 @@ body {
   margin: 0;
   padding: 0; }
 
+/*esto seria el HEADER*/
 h1 {
   color: #EEB738;
   font-style: oblique;
@@ -1173,7 +1174,9 @@ h1 {
   letter-spacing: 1px;
   font-size: 100%; }
 
-/*esto seria el HEADER*/
+.link-inicio {
+  text-decoration: none; }
+
 .logo {
   background-color: #3F2B39;
   display: flex;
@@ -1185,6 +1188,7 @@ h1 {
 .bcg {
   background-color: #3F2B39; }
 
+/*Barra buscadora*/
 .buscador {
   background-color: #3F2B39;
   display: flex;
@@ -1192,7 +1196,6 @@ h1 {
   align-items: center; }
 
 #barraBuscadora {
-  /*Barra buscadora*/
   border-radius: 15px;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -1266,7 +1269,7 @@ h1 {
   background-color: #9F0909; }
 
 /*esto seria el FOOTER*/
-/*Cuadro inferior izq*/
+/*Cuadro inferior izq del footer*/
 .redes {
   text-align: center;
   background-color: #3F2B39;
@@ -1314,7 +1317,7 @@ h1 {
 .whatsapp:hover {
   transform: rotateZ(-15deg); }
 
-/*Cuadro Medio*/
+/*Cuadro Medio del footer*/
 .copyright {
   text-align: center;
   background-color: #3F2B39;
@@ -1426,9 +1429,6 @@ h1 {
     margin: 5px;
     padding: 5px; } }
 
-.fotitoCarru {
-  height: 60.88vh; }
-
 .violeta {
   background-color: #3F2B39;
   color: #fff; }
@@ -1442,6 +1442,3 @@ h1 {
 
 #colorWhite:hover {
   color: #EEB738; }
-
-.link-inicio {
-  text-decoration: none; }
