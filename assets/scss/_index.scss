@@ -14,12 +14,14 @@ $border-rojo: solid 1px red;
     background-color: #fff;
 }
 
+// Division de mas llevados y te puede interesar
 .promosIndex{
   width: 2fr;
 }
   
 
 /*PRODUCTOS MAS LLEVADOS*/
+// Padre
 .masLlevados{
 color: $bcg-violeta;
 font-family: 'Poppins', sans-serif;
@@ -27,28 +29,28 @@ text-align: center;
 background-color: #EFEAEA;
 }
 
-
+// Hijo
 .productosMasLlevados{
 padding: 0.938rem 1.25rem;
 
     /*Products mas llevados caracteristicas*/
     .caja1{
-    background-color: #fff;
-    border-radius: 30px;
-
-    .img1{
+        background-color: #fff;
         border-radius: 30px;
-    }
+
+        .img1{
+            border-radius: 30px;
+        }
     }
     .producto1I{
-    font-weight: bold;
-    font-size: 130%;
-    font-family: 'Poppins', sans-serif;
-    color: $bcg-violeta;
+        font-weight: bold;
+        font-size: 130%;
+        font-family: 'Poppins', sans-serif;
+        color: $bcg-violeta;
     }
     .promo-1I{
-    font-family: 'Poppins', sans-serif;
-    color: $bcg-violeta;
+        font-family: 'Poppins', sans-serif;
+        color: $bcg-violeta;
     }
 }
 
@@ -259,8 +261,4 @@ transform: scale(1.1);
     color: $bcg-violeta;
     padding: 5px;
     }
-}
-
-body{
-    overflow-x: hidden;
 }

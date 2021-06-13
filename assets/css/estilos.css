@@ -1,23 +1,4 @@
 /*Estilos para PACKS*/
-.menuConteiner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  margin-bottom: 15px; }
-  .menuConteiner .menuConteiner__links {
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 130%;
-    line-height: 35px;
-    text-align: center;
-    list-style-type: none;
-    list-style-position: inside;
-    text-decoration: none;
-    margin-right: 30px; }
-
 .packs-conteiner {
   color: #3F2B39;
   font-family: 'Poppins', sans-serif;
@@ -805,9 +786,6 @@
     color: #3F2B39;
     padding: 5px; }
 
-body {
-  overflow-x: hidden; }
-
 .otros-conteiner {
   color: #3F2B39;
   font-family: 'Poppins', sans-serif;
@@ -1073,9 +1051,6 @@ body {
     color: #3F2B39;
     padding: 5px; }
 
-body {
-  overflow-x: hidden; }
-
 * {
   margin: 0;
   padding: 0; }
@@ -1094,10 +1069,6 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center; }
-
-.header405 {
-  background-color: #EEB738;
-  height: 50px; }
 
 .logo__h {
   text-align: center; }
@@ -1129,6 +1100,13 @@ body {
   color: #3F2B39;
   font-weight: 100; }
 
+.oops-centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
 .oops {
   color: #3F2B39;
   font-size: 50px; }
@@ -1136,13 +1114,6 @@ body {
 .texto-oops {
   color: #3F2B39;
   font-size: 20px; }
-
-.oops-centrado {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center; }
 
 /*Media para celular 404*/
 @media screen and (max-width: 767px) {
@@ -1154,8 +1125,6 @@ body {
     font-size: 40px;
     padding: 2px; } }
 
-/*Media para tablet 404*/
-/*Media para PC 404*/
 * {
   margin: 0;
   padding: 0; }

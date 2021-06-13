@@ -21,6 +21,7 @@ $border-rojo: solid 1px red;
     }
 }
   
+    // Cards de ofertas 
   .ofertas-cajas{
     margin-top: 1.5%;
     
@@ -82,10 +83,11 @@ transform: scale(1.1);
     color: #fff !important;
   }
   
-  .violeta:hover{
-    background-color: #5c3e53 !important;
-    color: #fff;
-  }
+.violeta:hover{
+background-color: #5c3e53 !important;
+color: #fff;
+}
+
 /*Color blanco para item de ofertas que no me anda*/
 #colorWhite{
     color: #fff;

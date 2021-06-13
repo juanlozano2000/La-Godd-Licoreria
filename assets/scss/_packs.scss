@@ -8,29 +8,6 @@ $bcg-gris_hover: #d8d8d8;
 $border-rojo: solid 1px red;
 
 /*Estilos para PACKS*/
-.menuConteiner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    margin-bottom: 15px;
-
-    .menuConteiner__links{
-        color: #ffffff;
-        font-family: 'Poppins', sans-serif;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 130%;
-        line-height: 35px;
-        text-align: center;
-        list-style-type: none;
-        list-style-position: inside;
-        text-decoration: none;
-        margin-right: 30px;
-    }
-}
-
-
 // Section principal
 .packs-conteiner{
     color:$bcg-violeta;
@@ -44,8 +21,7 @@ $border-rojo: solid 1px red;
     }
   }
   
-
-
+// Cards de packs  
 .packs-cajas{
   .packs-cajas__box1{
     background-color: #fff;
@@ -91,9 +67,6 @@ $border-rojo: solid 1px red;
     z-index: -1;
 }
 
-
-
-
 // FOOTER de packs
 .redes {
     text-align: center;
@@ -129,9 +102,6 @@ $border-rojo: solid 1px red;
       padding: 5px;
     }
 }
-
-
-
 
 
 /*MEDIA para celular PACKS*/
