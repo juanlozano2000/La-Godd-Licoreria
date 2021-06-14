@@ -93,7 +93,7 @@ h1{
   
   .botones__headerSup{ /*boton ingresar y registrarse*/
     text-decoration: none;
-    color: #fff;
+    color:#fff;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
   }
@@ -352,7 +352,14 @@ h1{
     width: 40vw;
     margin: 5px;
     padding: 5px;
-  }  
+  }
+
+  // Botones ingresar y registrarse
+  .botones{
+    .botones__headerSup{
+      font-size: 65%;
+    }
+  }
 }
 
 
@@ -375,4 +382,8 @@ h1{
 // Lo mismo que arriba pero especial en seccion ofertas
 #colorWhite:hover{
   color: $bcg-amarillo;
+}
+
+body{
+  overflow-x: hidden;
 }

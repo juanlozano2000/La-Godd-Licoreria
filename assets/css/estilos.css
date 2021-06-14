@@ -1397,7 +1397,9 @@ h1 {
     height: 5vh;
     width: 40vw;
     margin: 5px;
-    padding: 5px; } }
+    padding: 5px; }
+  .botones .botones__headerSup {
+    font-size: 65%; } }
 
 .violeta {
   background-color: #3F2B39;
@@ -1412,3 +1414,6 @@ h1 {
 
 #colorWhite:hover {
   color: #EEB738; }
+
+body {
+  overflow-x: hidden; }
